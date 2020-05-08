@@ -17,7 +17,7 @@ var data = {
   }
 };
 
-var titlePrefix = "What leaves in ";
+var titlePrefix = "What leaves after ";
 var titleSuffix = " in Animal Crossing: New Horizons";
 
 function getFilteredDataByCurrentMonth(monthcode) {
