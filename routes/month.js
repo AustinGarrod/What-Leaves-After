@@ -73,7 +73,7 @@ function getFilteredDataByCurrentMonth(monthcode) {
 router.get('/', function(req, res, next) {
   var d = new Date();
   var monthText = d.toLocaleString('default', { month: 'long' });
-  var monthsData = getFilteredDataByCurrentMonth(d.getMonth());
+  var monthsData = getFilteredDataByCurrentMonth(d.getMonth() + 1);
 
   res.render(
     'month', 
