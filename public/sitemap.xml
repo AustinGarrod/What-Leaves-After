@@ -1,74 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-  <loc>http://whatleavesafter.com/</loc>
-  <lastmod>2020-05-08T16:57:36+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://whatleavesafter.com/january</loc>
-  <lastmod>2020-05-08T16:57:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://whatleavesafter.com/february</loc>
-  <lastmod>2020-05-08T16:57:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://whatleavesafter.com/march</loc>
-  <lastmod>2020-05-08T16:57:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://whatleavesafter.com/april</loc>
-  <lastmod>2020-05-08T16:57:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://whatleavesafter.com/may</loc>
-  <lastmod>2020-05-08T16:57:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://whatleavesafter.com/june</loc>
-  <lastmod>2020-05-08T16:57:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://whatleavesafter.com/july</loc>
-  <lastmod>2020-05-08T16:57:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://whatleavesafter.com/august</loc>
-  <lastmod>2020-05-08T16:57:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://whatleavesafter.com/september</loc>
-  <lastmod>2020-05-08T16:57:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://whatleavesafter.com/october</loc>
-  <lastmod>2020-05-08T16:57:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://whatleavesafter.com/november</loc>
-  <lastmod>2020-05-08T16:57:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://whatleavesafter.com/december</loc>
-  <lastmod>2020-05-08T16:57:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://whatleavesafter.com</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://whatleavesafter.com/december</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://whatleavesafter.com/november</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://whatleavesafter.com/october</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://whatleavesafter.com/july</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://whatleavesafter.com/september</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://whatleavesafter.com/august</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://whatleavesafter.com/april</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://whatleavesafter.com/june</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://whatleavesafter.com/may</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://whatleavesafter.com/january</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://whatleavesafter.com/march</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://whatleavesafter.com/february</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
 </urlset>
+<!--<guid value="2c93a76f-470f-4063-820e-5d27ccbf49e9" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
