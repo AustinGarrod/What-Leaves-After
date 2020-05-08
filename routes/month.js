@@ -1,21 +1,10 @@
 var express = require('express');
 var router = express.Router();
+var moment = require('moment');
+var CronJob = require('cron').CronJob;
+var UpdateData = require('../modules/updatedata');
 
-var bugs_north = require('../data/bugs_north.json');
-var bugs_south = require('../data/bugs_south.json');
-var fish_north = require('../data/fish_north.json');
-var fish_south = require('../data/fish_south.json');
-
-var data = {
-  "bugs": {
-    "north": bugs_north,
-    "south": bugs_south
-  },
-  "fish": {
-    "north": fish_north,
-    "south": fish_south
-  }
-};
+var creatures = require('../data/data_latest.json');
 
 var titlePrefix = "What leaves after ";
 var titleSuffix = " in Animal Crossing: New Horizons";
@@ -23,8 +12,8 @@ var titleSuffix = " in Animal Crossing: New Horizons";
 function getFilteredDataByCurrentMonth(monthcode) {
   var filteredData = {
     "bugs": {
-    "north": [],
-    "south": []
+      "north": [],
+      "south": []
     },
     "fish": {
       "north": [],
@@ -36,37 +25,43 @@ function getFilteredDataByCurrentMonth(monthcode) {
   if (nextmonth > 12) {
     nextmonth = 1;
   }
-  
-  // filter bugs
 
-  for (var i = 0; i < data.bugs.north.length; i++) {
-    if (data.bugs.north[i][monthcode] && !data.bugs.north[i][nextmonth]) {
-      filteredData.bugs.north.push(data.bugs.north[i]);
+  for (var i = 0; i < creatures.bugs.length; i++) {
+    if (creatures.bugs[i].availability.north[monthcode - 1] && !creatures.bugs[i].availability.north[nextmonth - 1])
+    {
+      filteredData.bugs.north.push(creatures.bugs[i]);
+    }
+    if (creatures.bugs[i].availability.south[monthcode - 1] && !creatures.bugs[i].availability.south[nextmonth - 1])
+    {
+      filteredData.bugs.south.push(creatures.bugs[i]);
     }
   }
 
-  for (var i = 0; i < data.bugs.south.length; i++) {
-    if (data.bugs.south[i][monthcode] && !data.bugs.south[i][nextmonth]) {
-      filteredData.bugs.south.push(data.bugs.south[i]);
+  for (var i = 0; i < creatures.fish.length; i++) {
+    if (creatures.fish[i].availability.north[monthcode - 1] && !creatures.fish[i].availability.north[nextmonth - 1])
+    {
+      filteredData.fish.north.push(creatures.fish[i]);
     }
-  }
-
-  for (var i = 0; i < data.fish.north.length; i++) {
-    if (data.fish.north[i][monthcode] && !data.fish.north[i][nextmonth]) {
-      filteredData.fish.north.push(data.fish.north[i]);
-    }
-  }
-
-  for (var i = 0; i < data.fish.north.length; i++) {
-    if (data.fish.south[i][monthcode] && !data.fish.south[i][nextmonth]) {
-      filteredData.fish.south.push(data.fish.south[i]);
+    if (creatures.fish[i].availability.south[monthcode - 1] && !creatures.fish[i].availability.south[nextmonth - 1])
+    {
+      filteredData.fish.south.push(creatures.fish[i]);
     }
   }
 
   return filteredData;
 }
 
-//console.log(getFilteredDataByCurrentMonth(3).bugs.north);
+new CronJob('0 * * * *', function() {
+  UpdateData(function(error){
+    if (error)
+    {
+      console.log(error);
+      // TODO add error logging
+    } else {
+      creatures = require('../data/data_latest.json');
+    }
+  });
+}, null, true, 'America/Toronto');
 
 
 /* GET home page. */
@@ -81,10 +76,25 @@ router.get('/', function(req, res, next) {
       title: titlePrefix + monthText + titleSuffix, 
       data: monthsData, 
       month: monthText,
-      monthNumber: d.getMonth() + 1
+      monthNumber: d.getMonth() + 1,
+      dataage: moment(creatures.time).format("YYYY-MM-DD HH:mm:ss (ZZ)")
     }
   );
 });
+
+// router.get('/update', function(req, res, next) {
+//   UpdateData(function(error){
+//     if (error)
+//     {
+//       console.log(error);
+//       res.send("Failed to update data");
+//       // TODO add error logging
+//     } else {
+//       creatures = require('../data/data_latest.json');
+//       res.send("Updated data");
+//     }
+//   });  
+// });
 
 router.get('/january', function(req, res, next) {
   var monthsData = getFilteredDataByCurrentMonth(1);
@@ -95,7 +105,8 @@ router.get('/january', function(req, res, next) {
       title: titlePrefix + monthText + titleSuffix, 
       data: monthsData, 
       month: monthText,
-      monthNumber: 1
+      monthNumber: 1,
+      dataage: moment(creatures.time).format("YYYY-MM-DD HH:mm:ss (ZZ)")
     }
   );
 });
@@ -109,7 +120,8 @@ router.get('/february', function(req, res, next) {
       title: titlePrefix + monthText + titleSuffix, 
       data: monthsData, 
       month: monthText,
-      monthNumber: 2
+      monthNumber: 2,
+      dataage: moment(creatures.time).format("YYYY-MM-DD HH:mm:ss (ZZ)")
     }
   );
 });
@@ -123,7 +135,8 @@ router.get('/march', function(req, res, next) {
       title: titlePrefix + monthText + titleSuffix, 
       data: monthsData, 
       month: monthText,
-      monthNumber: 3
+      monthNumber: 3,
+      dataage: moment(creatures.time).format("YYYY-MM-DD HH:mm:ss (ZZ)")
     }
   );
 });
@@ -137,7 +150,8 @@ router.get('/april', function(req, res, next) {
       title: titlePrefix + monthText + titleSuffix, 
       data: monthsData, 
       month: monthText,
-      monthNumber: 4
+      monthNumber: 4,
+      dataage: moment(creatures.time).format("YYYY-MM-DD HH:mm:ss (ZZ)")
     }
   );
 });
@@ -151,7 +165,8 @@ router.get('/may', function(req, res, next) {
       title: titlePrefix + monthText + titleSuffix, 
       data: monthsData, 
       month: monthText,
-      monthNumber: 5
+      monthNumber: 5,
+      dataage: moment(creatures.time).format("YYYY-MM-DD HH:mm:ss (ZZ)")
     }
   );
 });
@@ -165,7 +180,8 @@ router.get('/june', function(req, res, next) {
       title: titlePrefix + monthText + titleSuffix, 
       data: monthsData, 
       month: monthText,
-      monthNumber: 6
+      monthNumber: 6,
+      dataage: moment(creatures.time).format("YYYY-MM-DD HH:mm:ss (ZZ)")
     }
   );
 });
@@ -179,7 +195,8 @@ router.get('/july', function(req, res, next) {
       title: titlePrefix + monthText + titleSuffix, 
       data: monthsData, 
       month: monthText,
-      monthNumber: 7
+      monthNumber: 7,
+      dataage: moment(creatures.time).format("YYYY-MM-DD HH:mm:ss (ZZ)")
     }
   );
 });
@@ -193,7 +210,8 @@ router.get('/august', function(req, res, next) {
       title: titlePrefix + monthText + titleSuffix, 
       data: monthsData, 
       month: monthText,
-      monthNumber: 8
+      monthNumber: 8,
+      dataage: moment(creatures.time).format("YYYY-MM-DD HH:mm:ss (ZZ)")
     }
   );
 });
@@ -207,7 +225,8 @@ router.get('/september', function(req, res, next) {
       title: titlePrefix + monthText + titleSuffix, 
       data: monthsData, 
       month: monthText,
-      monthNumber: 9
+      monthNumber: 9,
+      dataage: moment(creatures.time).format("YYYY-MM-DD HH:mm:ss (ZZ)")
     }
   );
 });
@@ -221,7 +240,8 @@ router.get('/october', function(req, res, next) {
       title: titlePrefix + monthText + titleSuffix, 
       data: monthsData, 
       month: monthText,
-      monthNumber: 10
+      monthNumber: 10,
+      dataage: moment(creatures.time).format("YYYY-MM-DD HH:mm:ss (ZZ)")
     }
   );
 });
@@ -235,7 +255,8 @@ router.get('/november', function(req, res, next) {
       title: titlePrefix + monthText + titleSuffix, 
       data: monthsData, 
       month: monthText,
-      monthNumber: 11
+      monthNumber: 11,
+      dataage: moment(creatures.time).format("YYYY-MM-DD HH:mm:ss (ZZ)")
     }
   );
 });
@@ -249,7 +270,8 @@ router.get('/december', function(req, res, next) {
       title: titlePrefix + monthText + titleSuffix, 
       data: monthsData, 
       month: monthText,
-      monthNumber: 12
+      monthNumber: 12,
+      dataage: moment(creatures.time).format("YYYY-MM-DD HH:mm:ss (ZZ)")
     }
   );
 });
