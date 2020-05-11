@@ -1,0 +1,131 @@
+extends layout
+
+mixin fish(name, price, location, time, shaddow, img)
+  div.row.fishcard
+    div
+      img(src !="/images/fish/" + img)
+    div
+      div.name
+        a=name
+      div.price
+        img(src="/images/bells.png")
+        | #{price}
+    div 
+      | Found in 
+      br
+      | #{location}
+    div 
+      | Catchable
+      br
+      | #{time}
+    div Size #{shaddow}
+
+mixin bug(name, price, location, time, img)
+  div.row.bugcard
+    div
+      img(src !="/images/bugs/" + img)
+    div
+      div.name=name
+      div.price
+        img(src="/images/bells.png")
+        | #{price}
+    div 
+      | Found 
+      br
+      | #{location}
+    div 
+      | Catchable
+      br
+      | #{time}
+
+block content
+  script.
+    $(()=>{
+      if (Cookies.get("isSouth") == "true")
+      {
+        goToSouth();
+      }
+
+      $("#months a").eq(!{monthNumber - 1}).addClass("selected");
+
+      function goToNorth(){
+        Cookies.set("isSouth", "false",  { expires: 99999 });
+        $("#southbutton").removeClass("selected");
+        $("#northbutton").addClass("selected");
+        $("#southerndata").hide();
+        $("#northerndata").show();
+      }
+
+      function goToSouth(){
+        Cookies.set("isSouth", "true",  { expires: 99999 });
+        $("#northbutton").removeClass("selected");
+        $("#southbutton").addClass("selected");
+        $("#northerndata").hide();
+        $("#southerndata").show();
+      }
+
+      $("#northbutton").on("click", goToNorth);
+      $("#southbutton").on("click", goToSouth);
+    })
+  div.container
+    div.row
+      div.card#title
+        div.row
+          div.col-12
+            img#logo(src="/images/logo.png", alt="What Leaves After...")
+        div.row
+          div.col-12#month=month
+    nav.row#months
+      a.month(href="/january") Jan
+      a.month(href="/february") Feb
+      a.month(href="/march") Mar
+      a.month(href="/april") Apr
+      a.month(href="/may") May
+      a.month(href="/june") Jun
+      a.month(href="/july") Jul
+      a.month(href="/august") Aug
+      a.month(href="/september") Sep
+      a.month(href="/october") Oct
+      a.month(href="/november") Nov
+      a.month(href="/december") Dec
+    div.row
+      div.col-12#description.card.
+        The following fish and bugs will no longer be available after the end of #{month} in Animal Crossing: New Horizons
+    div.row#hemiselect
+      div#northbutton.hemi.selected Northern Hemisphere
+      div#southbutton.hemi Southern Hemisphere
+    div.row.data#northerndata
+      if data.fish.north.length == 0 & data.bugs.north.length == 0
+        div.noleave No creatures are leaving after this month!
+      div.container
+        each fish in data.fish.north
+          +fish(fish.name, fish.price, fish.location, fish.time, fish.shadow, fish.img)
+        if data.bugs.north.length > 0
+          br
+        each bug in data.bugs.north
+          +bug(bug.name, bug.price, bug.location, bug.time, bug.img)
+    div.row.data#southerndata
+      if data.fish.south.length == 0 & data.bugs.south.length == 0
+        div.noleave No creatures are leaving after this month!
+      div.container
+        each fish in data.fish.south
+          +fish(fish.name, fish.price, fish.location, fish.time, fish.shadow, fish.img)
+        if data.bugs.south.length > 0
+          br
+        each bug in data.bugs.south
+          +bug(bug.name, bug.price, bug.location, bug.time, bug.img)
+    div.row#footer
+      div.col-lg-4.col-sm-12
+        | Data and images from 
+        a(href="https://animalcrossing.fandom.com/wiki/Animal_Crossing_Wiki", target="_blank")
+          | Animal Crossing Wiki
+      div.col-lg-4.col-sm-12.
+        Data Last Updated #{dataage}
+      div.col-lg-4.col-sm-12
+        a(rel='license', href='http://creativecommons.org/licenses/by-sa/4.0/', target="_blank")
+          | Content is available under CC-BY-SA
+
+
+
+  //h1= title
+  
