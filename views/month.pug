@@ -18,16 +18,14 @@ mixin creature(name, price, location, time, img)
       i.material-icons schedule
       br
       | #{time}
-
-block content
+      
+block header
   script.
     $(()=>{
       if (Cookies.get("isSouth") == "true")
       {
         goToSouth();
       }
-
-      $("#months a").eq(!{monthNumber}).addClass("selected");
 
       function goToNorth(){
         Cookies.set("isSouth", "false",  { expires: 99999 });
@@ -48,98 +46,75 @@ block content
       $("#northbutton").on("click", goToNorth);
       $("#southbutton").on("click", goToSouth);
     })
-  button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--primary.monthmenubutton#monthmenu
-    i.material-icons menu
-  ul.mdl-menu.mdl-menu--bottom-left.mdl-js-menu.mdl-js-ripple-effect(for='monthmenu').monthmenu
-    each month in ["January","February","March","April","May","June","July","August","September","October","November","December"]
-      a(href!="/" + month)
-        li.mdl-menu__item= month
 
-  div#content
-    header.mdl-card.mdl-shadow--16dp
-      a(href="/")
-        img#logo(src="/images/logo.png", alt="What Leaves After")
-      div#month=month
-    div.mdl-card.mdl-card.mdl-shadow--16dp#banner
-      | The following fish and bugs will no longer be available after the end of #{month} in Animal Crossing: New Horizons
-      br
-      br
-      | Please use the menu in the top left to change the month
-    div.mdl-card.mdl-card.mdl-shadow--16dp#hemisphere-chooser
-      button.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect#northbutton(disabled=true) Northern Hemisphere
-      button.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect#southbutton Southern Hemisphere
-    
-    div.mdl-card.mdl-card.mdl-shadow--16dp.northerndata.small
-      .mdl-tabs.mdl-js-tabs.mdl-js-ripple-effect
-        .mdl-tabs__tab-bar
-          a.mdl-tabs__tab.is-active(href='#fish') Fish
-          a.mdl-tabs__tab(href='#bugs') Bugs
-        
-        div#fish.mdl-tabs__panel.is-active
-          if data.fish.north.length == 0
-            div.mdl-card.nothinghere.center No fish leave this month!
-          each fish in data.fish.north
-            +creature(fish.name, fish.price, fish.location, fish.time, fish.img)
-        
-        div#bugs.mdl-tabs__panel
-          if data.bugs.north.length == 0
-            div.mdl-card.nothinghere.center No bugs leave this month!
-          each bug in data.bugs.north
-            +creature(bug.name, bug.price, bug.location, bug.time, bug.img)
-    
-    div.mdl-card.mdl-card.mdl-shadow--16dp.southerndata.small
-      .mdl-tabs.mdl-js-tabs.mdl-js-ripple-effect
-        .mdl-tabs__tab-bar
-          a.mdl-tabs__tab.is-active(href='#fish') Fish
-          a.mdl-tabs__tab(href='#bugs') Bugs
-        
-        div#fish.mdl-tabs__panel.is-active
-          if data.fish.south.length == 0
-            div.mdl-card.nothinghere.center No fish leave this month!
-          each fish in data.fish.south
-            +creature(fish.name, fish.price, fish.location, fish.time, fish.img)
-        
-        div#bugs.mdl-tabs__panel
-          if data.bugs.south.length == 0
-            div.mdl-card.nothinghere.center No bugs leave this month!
-          each bug in data.bugs.south
-            +creature(bug.name, bug.price, bug.location, bug.time, bug.img)
-    
-    div.large
-      div.mdl-card.mdl-shadow--2dp.northerndata
+block content
+  div.mdl-card.mdl-card.mdl-shadow--16dp#banner
+    | The following fish and bugs will no longer be available after the end of #{month} in Animal Crossing: New Horizons
+    br
+    br
+    | Please use the menu in the top left to change the month
+
+  div.mdl-card.mdl-card.mdl-shadow--16dp#hemisphere-chooser
+    button.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect#northbutton(disabled=true) Northern Hemisphere
+    button.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect#southbutton Southern Hemisphere
+  
+  div.mdl-card.mdl-card.mdl-shadow--16dp.northerndata.small
+    .mdl-tabs.mdl-js-tabs.mdl-js-ripple-effect
+      .mdl-tabs__tab-bar
+        a.mdl-tabs__tab.is-active(href='#fish') Fish
+        a.mdl-tabs__tab(href='#bugs') Bugs
+      
+      div#fish.mdl-tabs__panel.is-active
         if data.fish.north.length == 0
-            div.mdl-card.nothinghere.center No fish leave this month!
+          div.mdl-card.nothinghere.center No fish leave this month!
         each fish in data.fish.north
           +creature(fish.name, fish.price, fish.location, fish.time, fish.img)
-
-      div.mdl-card.mdl-card.mdl-shadow--2dp.northerndata
+      
+      div#bugs.mdl-tabs__panel
         if data.bugs.north.length == 0
-            div.mdl-card.nothinghere.center No bugs leave this month!
+          div.mdl-card.nothinghere.center No bugs leave this month!
         each bug in data.bugs.north
           +creature(bug.name, bug.price, bug.location, bug.time, bug.img)
-
-      div.mdl-card.mdl-card.mdl-shadow--2dp.southerndata
+  
+  div.mdl-card.mdl-card.mdl-shadow--16dp.southerndata.small
+    .mdl-tabs.mdl-js-tabs.mdl-js-ripple-effect
+      .mdl-tabs__tab-bar
+        a.mdl-tabs__tab.is-active(href='#fish') Fish
+        a.mdl-tabs__tab(href='#bugs') Bugs
+      
+      div#fish.mdl-tabs__panel.is-active
         if data.fish.south.length == 0
-            div.mdl-card.nothinghere.center No fish leave this month!
+          div.mdl-card.nothinghere.center No fish leave this month!
         each fish in data.fish.south
           +creature(fish.name, fish.price, fish.location, fish.time, fish.img)
-
-      div.mdl-card.mdl-card.mdl-shadow--2dp.southerndata
+      
+      div#bugs.mdl-tabs__panel
         if data.bugs.south.length == 0
-            div.mdl-card.nothinghere.center No Bugs leave this month!
+          div.mdl-card.nothinghere.center No bugs leave this month!
         each bug in data.bugs.south
           +creature(bug.name, bug.price, bug.location, bug.time, bug.img)
+  
+  div.large
+    div.mdl-card.mdl-shadow--2dp.northerndata
+      if data.fish.north.length == 0
+          div.mdl-card.nothinghere.center No fish leave this month!
+      each fish in data.fish.north
+        +creature(fish.name, fish.price, fish.location, fish.time, fish.img)
 
-    div.mdl-card.mdl-card.mdl-shadow--16dp.center#footer
-      div
-        | Data and images from 
-        a(href="https://animalcrossing.fandom.com/wiki/Animal_Crossing_Wiki", target="_blank")
-          | Animal Crossing Wiki
-        |  available under CC-BY-SA
-      div
-        | Data Last Updated #{dataage}
-      div
-        | Content is available under 
-        a(rel='license', href='http://creativecommons.org/licenses/by-sa/4.0/', target="_blank")
-          | CC-BY-SA
-        |  unless noted otherwise
+    div.mdl-card.mdl-card.mdl-shadow--2dp.northerndata
+      if data.bugs.north.length == 0
+          div.mdl-card.nothinghere.center No bugs leave this month!
+      each bug in data.bugs.north
+        +creature(bug.name, bug.price, bug.location, bug.time, bug.img)
+
+    div.mdl-card.mdl-card.mdl-shadow--2dp.southerndata
+      if data.fish.south.length == 0
+          div.mdl-card.nothinghere.center No fish leave this month!
+      each fish in data.fish.south
+        +creature(fish.name, fish.price, fish.location, fish.time, fish.img)
+
+    div.mdl-card.mdl-card.mdl-shadow--2dp.southerndata
+      if data.bugs.south.length == 0
+          div.mdl-card.nothinghere.center No Bugs leave this month!
+      each bug in data.bugs.south
+        +creature(bug.name, bug.price, bug.location, bug.time, bug.img)
