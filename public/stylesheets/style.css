@@ -158,6 +158,12 @@ header {
   grid-row-gap: 0px;
 }
 
+pre {
+  margin: 0;
+  font-size: 12px;
+  overflow: auto;
+}
+
 @media only all and (max-width:1000px) { 
   .large {
     display: none !important;
