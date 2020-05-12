@@ -20,7 +20,7 @@ const months = [
   "december"
 ];
 
-const titlePrefix = "What leaves after ";
+const titlePrefix = "NEW What leaves after ";
 const titleSuffix = " in Animal Crossing: New Horizons";
 
 function getFilteredDataByCurrentMonth(monthcode) {
@@ -75,7 +75,7 @@ router.get('/', function(req, res, next) {
   var monthsData = getFilteredDataByCurrentMonth(d.getMonth());
 
   res.render(
-    'month', 
+    'newmonth', 
     { 
       title: titlePrefix + monthText + titleSuffix, 
       data: monthsData, 
@@ -100,7 +100,7 @@ router.get('/:month', function(req, res, next) {
     var monthsData = getFilteredDataByCurrentMonth(monthNumber);
 
     res.render(
-    'month', 
+    'newmonth', 
       { 
         title: titlePrefix + monthText + titleSuffix, 
         data: monthsData, 
