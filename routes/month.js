@@ -81,7 +81,7 @@ router.get('/', function(req, res, next) {
       data: monthsData, 
       month: monthText,
       monthNumber: d.getMonth() + 1,
-      dataage: moment(creatures.time).format("YYYY-MM-DD HH:mm:ss (ZZ)")
+      dataage: moment(creatures.time).tz('America/Toronto').format("YYYY-MM-DD HH:mm:ss z")
     }
   );
 });
