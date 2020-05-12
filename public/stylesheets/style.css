@@ -136,10 +136,14 @@ header {
 }
 
 .monthmenubutton {
-  position: absolute;
+  position: fixed;
   z-index: 2;
   left: 3px;
   top: 3px;
+}
+
+.mdl-menu__container {
+  position: fixed;
 }
 
 .monthmenu a {
