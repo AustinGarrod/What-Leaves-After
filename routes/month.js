@@ -22,6 +22,8 @@ const months = [
 
 const titlePrefix = "What leaves after ";
 const titleSuffix = " in Animal Crossing: New Horizons";
+const monthDescriptionPrefix = "These fish and bugs will no longer be available after the end of ";
+const monthDescriptionSuffix = " in Animal Crossing: New Horizons.";
 
 function getFilteredDataByCurrentMonth(monthcode) {
   var filteredData = {
@@ -80,7 +82,9 @@ router.get('/', function(req, res, next) {
       title: titlePrefix + monthText + titleSuffix, 
       data: monthsData, 
       month: monthText,
+      pagetitle: monthText,
       monthNumber: d.getMonth() + 1,
+      description: monthDescriptionPrefix + monthText + monthDescriptionSuffix,
       dataage: moment(creatures.time).tz('America/Toronto').format("YYYY-MM-DD HH:mm:ss z")
     }
   );
@@ -105,7 +109,9 @@ router.get('/:month', function(req, res, next) {
         title: titlePrefix + monthText + titleSuffix, 
         data: monthsData, 
         month: monthText,
+        pagetitle: monthText,
         monthNumber: monthNumber + 1,
+        description: monthDescriptionPrefix + monthText + monthDescriptionSuffix,
         dataage: moment(creatures.time).tz('America/Toronto').format("YYYY-MM-DD HH:mm:ss z")
       }
     );
