@@ -38,7 +38,7 @@ app.use(function(err, req, res, next) {
     pagetitle: errorMessage,
     title: titleMessage,
     status: errorStatus,
-    error: req.app.get('env') === 'development' ? err : {}
+    error: req.app.get('env') === 'development' ? err : false
   });
 });
 
