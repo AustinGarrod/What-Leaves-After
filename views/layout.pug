@@ -4,7 +4,7 @@ html
     title= title
     meta(name='viewport', content='width=device-width,initial-scale=1,maximum-scale=1')
     meta(name='theme-color', content='#8fc31f')
-    meta(name='description', content!='These fish and bugs will no longer be available after the end of '+ month +' in Animal Crossing: New Horizons.')
+    meta(name='description', content=description)
 
     link(rel='apple-touch-icon', sizes='57x57', href='/apple-icon-57x57.png')
     link(rel='apple-touch-icon', sizes='60x60', href='/apple-icon-60x60.png')
@@ -56,7 +56,7 @@ html
         header.mdl-card.mdl-shadow--16dp
             a(href="/")
                 img#logo(src="/images/logo.png", alt="What Leaves After")
-            div#month=month
+            div#pagetitle=pagetitle
 
         block content
 
