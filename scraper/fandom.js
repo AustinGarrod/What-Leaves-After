@@ -37,7 +37,7 @@ rp(fishUrl)
       "name": northRows.eq(i).find("td").eq(0).text().trim(),
       "img": northRows.eq(i).find("td").eq(0).text().trim().toLowerCase().replace(/\s/g, '').replace("-", "").replace("'", "") + ".png",
       "wiki": "https://animalcrossing.fandom.com" + northRows.eq(i).find("td").eq(0).children().eq(0).attr("href"),
-      "price": northRows.eq(i).find("td").eq(2).text().trim(),
+      "price": northRows.eq(i).find("td").eq(2).text().trim().replace(/,/g, ""),
       "location": northRows.eq(i).find("td").eq(3).text().trim(),
       "shadow": northRows.eq(i).find("td").eq(4).text().trim(),
       "time": northRows.eq(i).find("td").eq(5).text().trim(),
@@ -69,7 +69,7 @@ rp(fishUrl)
           "name": northRows.eq(i).find("td").eq(0).text().trim(),
           "img": northRows.eq(i).find("td").eq(0).text().trim().toLowerCase().replace(/\s/g, '').replace("-", "").replace("'", "") + ".png",
           "wiki": "https://animalcrossing.fandom.com" + northRows.eq(i).find("td").eq(0).children().eq(0).attr("href"),
-          "price": northRows.eq(i).find("td").eq(2).text().trim(),
+          "price": northRows.eq(i).find("td").eq(2).text().trim().replace(/,/g, ""),
           "location": northRows.eq(i).find("td").eq(3).text().trim(),
           "time": northRows.eq(i).find("td").eq(4).text().trim(),
           "availability": {
@@ -92,14 +92,13 @@ rp(fishUrl)
     fs.writeFile(fileName, JSON.stringify(data, null, '\t'), function(error){
       if (error) {
         console.log(error);
-        // TODO add actual error logging
       } else {
         fs.copyFile(fileName, latestFileName, function(error){
           if (error) {
-            callback(error);
+            // TODO add actual error logging
+            console.log(error);
           } else {
             console.log("Done updating data");
-            callback();
           }
         })
       }
@@ -107,9 +106,11 @@ rp(fishUrl)
 
     })
     .catch(function(err){
-      callback(err);
+      console.log(err);
+      // TODO add actual error logging
     });
 })
 .catch(function(err){
-  callback(err);
+  console.log(err);
+  // TODO add actual error logging
 });
