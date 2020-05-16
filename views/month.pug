@@ -1,23 +1,27 @@
 extends layout
 
-mixin creature(name, price, location, time, img)
+mixin creature(creature)
   div.mdl-card.mdl-shadow--2dp.creature
     div
-      img.icon(src !="/images/creatures/" + img)
+      a(href=creature.wiki_url)
+        img.icon(src !="/images/creatures/" + creature.img)
     div.center
       div.name
-        a=name
+        a(href=creature.wiki_url)=creature.name
       div.price
         img.bells(src="/images/bells.png")
-        | #{price}
+        | #{creature.price}
     div.center 
       i.material-icons place
       br
-      | #{location}
+      if !(creature.location_url == null)
+        a(href=creature.location_url)=creature.location
+      if (creature.location_url == null)
+        | #{creature.location}
     div.center 
       i.material-icons schedule
       br
-      | #{time}
+      | #{creature.time}
       
 block header
   script.
@@ -68,13 +72,13 @@ block content
         if data.fish.north.length == 0
           div.mdl-card.nothinghere.center No fish leave this month!
         each fish in data.fish.north
-          +creature(fish.name, fish.price, fish.location, fish.time, fish.img)
+          +creature(fish)
       
       div#bugs.mdl-tabs__panel
         if data.bugs.north.length == 0
           div.mdl-card.nothinghere.center No bugs leave this month!
         each bug in data.bugs.north
-          +creature(bug.name, bug.price, bug.location, bug.time, bug.img)
+          +creature(bug)
   
   div.mdl-card.mdl-card.mdl-shadow--16dp.southerndata.small
     .mdl-tabs.mdl-js-tabs.mdl-js-ripple-effect
@@ -86,35 +90,35 @@ block content
         if data.fish.south.length == 0
           div.mdl-card.nothinghere.center No fish leave this month!
         each fish in data.fish.south
-          +creature(fish.name, fish.price, fish.location, fish.time, fish.img)
+          +creature(fish)
       
       div#bugs.mdl-tabs__panel
         if data.bugs.south.length == 0
           div.mdl-card.nothinghere.center No bugs leave this month!
         each bug in data.bugs.south
-          +creature(bug.name, bug.price, bug.location, bug.time, bug.img)
+          +creature(bug)
   
   div.large
     div.mdl-card.mdl-shadow--2dp.northerndata
       if data.fish.north.length == 0
           div.mdl-card.nothinghere.center No fish leave this month!
       each fish in data.fish.north
-        +creature(fish.name, fish.price, fish.location, fish.time, fish.img)
+        +creature(fish)
 
     div.mdl-card.mdl-card.mdl-shadow--2dp.northerndata
       if data.bugs.north.length == 0
           div.mdl-card.nothinghere.center No bugs leave this month!
       each bug in data.bugs.north
-        +creature(bug.name, bug.price, bug.location, bug.time, bug.img)
+        +creature(bug)
 
     div.mdl-card.mdl-card.mdl-shadow--2dp.southerndata
       if data.fish.south.length == 0
           div.mdl-card.nothinghere.center No fish leave this month!
       each fish in data.fish.south
-        +creature(fish.name, fish.price, fish.location, fish.time, fish.img)
+        +creature(fish)
 
     div.mdl-card.mdl-card.mdl-shadow--2dp.southerndata
       if data.bugs.south.length == 0
           div.mdl-card.nothinghere.center No Bugs leave this month!
       each bug in data.bugs.south
-        +creature(bug.name, bug.price, bug.location, bug.time, bug.img)
+        +creature(bug)

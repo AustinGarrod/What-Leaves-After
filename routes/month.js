@@ -67,9 +67,6 @@ function getFilteredDataByCurrentMonth(monthcode) {
   return filteredData;
 }
 
-
-
-
 /* Default router */
 router.get('/', function(req, res, next) {
   var d = new Date();
@@ -88,6 +85,40 @@ router.get('/', function(req, res, next) {
       dataage: moment(creatures.time).tz('America/Toronto').format("YYYY-MM-DD HH:mm:ss z")
     }
   );
+});
+
+/* Router for debugging */
+router.get('/all', function(req, res, next) {
+  var d = new Date();
+  var monthText = "ALL";
+  var monthsData = {
+    "bugs": {
+      "north": creatures.bugs,
+      "south": creatures.bugs
+    },
+    "fish": {
+      "north": creatures.fish,
+      "south": creatures.fish
+    }
+  };
+
+  if (req.app.get('env') === 'development') {
+    res.render(
+      'month', 
+      { 
+        title: "ALL CREATURE DEBUG", 
+        data: monthsData, 
+        month: monthText,
+        pagetitle: monthText,
+        monthNumber: d.getMonth() + 1,
+        description: "ALL CREATURE DEBUG",
+        dataage: moment(creatures.time).tz('America/Toronto').format("YYYY-MM-DD HH:mm:ss z")
+      }
+    );
+  }
+  else {
+    next(createError(404));
+  }
 });
 
 /* Provided month router */
