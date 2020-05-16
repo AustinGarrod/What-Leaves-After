@@ -85,6 +85,9 @@ function cleanLocationUrl(dirtyLocation) {
     case "Hitting Rocks":
       cleanLocation = "Rock"
       break;
+    case "Underground":
+      cleanLocation = "Grass"
+      break;
     default:
       cleanLocation = dirtyLocation;
   }
@@ -110,7 +113,7 @@ rp(fishUrl)
       "img": northRows.eq(i).find("td").eq(0).text().trim().toLowerCase().replace(/\s/g, '').replace("-", "").replace("'", "") + ".png",
       "wiki_url": "https://animalcrossing.fandom.com" + northRows.eq(i).find("td").eq(0).children().eq(0).attr("href"),
       "price": northRows.eq(i).find("td").eq(2).text().trim().replace(/,/g, ""),
-      "location": northRows.eq(i).find("td").eq(3).text().trim(),
+      "location": northRows.eq(i).find("td").eq(3).text().trim().replace("?", ""),
       "location_url": cleanLocationUrl(northRows.eq(i).find("td").eq(3).text()),
       "shadow": northRows.eq(i).find("td").eq(4).text().trim(),
       "time": northRows.eq(i).find("td").eq(5).text().trim(),
@@ -143,7 +146,7 @@ rp(fishUrl)
           "img": northRows.eq(i).find("td").eq(0).text().trim().toLowerCase().replace(/\s/g, '').replace("-", "").replace("'", "") + ".png",
           "wiki_url": "https://animalcrossing.fandom.com" + northRows.eq(i).find("td").eq(0).children().eq(0).attr("href"),
           "price": northRows.eq(i).find("td").eq(2).text().trim().replace(/,/g, ""),
-          "location": northRows.eq(i).find("td").eq(3).text().trim(),
+          "location": northRows.eq(i).find("td").eq(3).text().trim().replace("?", ""),
           "location_url": cleanLocationUrl(northRows.eq(i).find("td").eq(3).text()),
           "time": northRows.eq(i).find("td").eq(4).text().trim(),
           "availability": {

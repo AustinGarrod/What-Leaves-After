@@ -14,7 +14,10 @@ mixin creature(creature)
     div.center 
       i.material-icons place
       br
-      a(href=creature.location_url)=creature.location
+      if !(creature.location_url == null)
+        a(href=creature.location_url)=creature.location
+      if (creature.location_url == null)
+        | #{creature.location}
     div.center 
       i.material-icons schedule
       br
