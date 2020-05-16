@@ -27,13 +27,19 @@ app.use(function(req, res, next) {
 
 // error handler
 app.use(function(err, req, res, next) {
-  // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
+  var errorStatus = (err.status || 500)
+  var errorMessage = errorStatus + (errorMessage === 500 ? ": Server Error" : ": " + err.message)
+  var titleMessage = errorStatus + "  | whatleavesafter.com";
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.render('error', {
+    message: errorMessage,
+    pagetitle: req.app.get('env') === 'development' ? errorStatus : errorMessage,
+    title: titleMessage,
+    status: errorStatus,
+    error: req.app.get('env') === 'development' ? err : false
+  });
 });
 
 module.exports = app;

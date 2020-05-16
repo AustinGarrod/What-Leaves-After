@@ -42,7 +42,7 @@ header {
   width: 100%;
 }
 
-#month {
+#pagetitle {
   font-family: 'Kadwa', serif;
   font-weight: 600;
   color: #8fc31f;
@@ -136,10 +136,14 @@ header {
 }
 
 .monthmenubutton {
-  position: absolute;
+  position: fixed;
   z-index: 2;
   left: 3px;
   top: 3px;
+}
+
+.mdl-menu__container {
+  position: fixed;
 }
 
 .monthmenu a {
@@ -152,6 +156,16 @@ header {
   grid-template-rows: 1fr;
   grid-column-gap: 20px;
   grid-row-gap: 0px;
+}
+
+#pagetitle {
+  line-height: 52px;
+}
+
+pre {
+  margin: 0;
+  font-size: 12px;
+  overflow: auto;
 }
 
 @media only all and (max-width:1000px) { 

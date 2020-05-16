@@ -22,6 +22,8 @@ const months = [
 
 const titlePrefix = "What leaves after ";
 const titleSuffix = " in Animal Crossing: New Horizons";
+const monthDescriptionPrefix = "These fish and bugs will no longer be available after the end of ";
+const monthDescriptionSuffix = " in Animal Crossing: New Horizons.";
 
 function getFilteredDataByCurrentMonth(monthcode) {
   var filteredData = {
@@ -65,9 +67,6 @@ function getFilteredDataByCurrentMonth(monthcode) {
   return filteredData;
 }
 
-
-
-
 /* Default router */
 router.get('/', function(req, res, next) {
   var d = new Date();
@@ -80,10 +79,44 @@ router.get('/', function(req, res, next) {
       title: titlePrefix + monthText + titleSuffix, 
       data: monthsData, 
       month: monthText,
+      pagetitle: monthText,
       monthNumber: d.getMonth() + 1,
-      dataage: moment(creatures.time).format("YYYY-MM-DD HH:mm:ss (ZZ)")
+      dataage: moment(creatures.time).tz('America/Toronto').format("YYYY-MM-DD HH:mm:ss z")
     }
   );
+});
+
+/* Router for debugging */
+router.get('/all', function(req, res, next) {
+  var d = new Date();
+  var monthText = "ALL";
+  var monthsData = {
+    "bugs": {
+      "north": creatures.bugs,
+      "south": creatures.bugs
+    },
+    "fish": {
+      "north": creatures.fish,
+      "south": creatures.fish
+    }
+  };
+
+  if (req.app.get('env') === 'development') {
+    res.render(
+      'month', 
+      { 
+        title: "ALL CREATURE DEBUG", 
+        data: monthsData, 
+        month: monthText,
+        pagetitle: monthText,
+        monthNumber: d.getMonth() + 1,
+        dataage: moment(creatures.time).tz('America/Toronto').format("YYYY-MM-DD HH:mm:ss z")
+      }
+    );
+  }
+  else {
+    next(createError(404));
+  }
 });
 
 /* Provided month router */
@@ -105,6 +138,7 @@ router.get('/:month', function(req, res, next) {
         title: titlePrefix + monthText + titleSuffix, 
         data: monthsData, 
         month: monthText,
+        pagetitle: monthText,
         monthNumber: monthNumber + 1,
         dataage: moment(creatures.time).tz('America/Toronto').format("YYYY-MM-DD HH:mm:ss z")
       }

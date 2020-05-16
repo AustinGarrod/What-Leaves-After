@@ -1,13 +1,12 @@
 {
-	"time": "2020-05-16T19:36:59.665Z",
+	"time": "2020-05-14T01:29:30.390Z",
 	"fish": [
 		{
 			"name": "Bitterling",
 			"img": "bitterling.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Bitterling",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Bitterling",
 			"price": "900",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "1",
 			"time": "All day",
 			"availability": {
@@ -44,10 +43,9 @@
 		{
 			"name": "Pale chub",
 			"img": "palechub.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Pale_chub",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Pale_chub",
 			"price": "200",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "1",
 			"time": "9 AM - 4 PM",
 			"availability": {
@@ -84,10 +82,9 @@
 		{
 			"name": "Crucian carp",
 			"img": "cruciancarp.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Crucian_carp",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Crucian_carp",
 			"price": "160",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "2",
 			"time": "All day",
 			"availability": {
@@ -124,10 +121,9 @@
 		{
 			"name": "Dace",
 			"img": "dace.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Dace",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Dace",
 			"price": "240",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "3",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -164,10 +160,9 @@
 		{
 			"name": "Carp",
 			"img": "carp.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Carp",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Carp",
 			"price": "300",
 			"location": "Pond",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Pond",
 			"shadow": "4",
 			"time": "All day",
 			"availability": {
@@ -204,10 +199,9 @@
 		{
 			"name": "Koi",
 			"img": "koi.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Koi",
-			"price": "4000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Koi",
+			"price": "4,000",
 			"location": "Pond",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Pond",
 			"shadow": "4",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -244,10 +238,9 @@
 		{
 			"name": "Goldfish",
 			"img": "goldfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Goldfish",
-			"price": "1300",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Goldfish",
+			"price": "1,300",
 			"location": "Pond",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Pond",
 			"shadow": "1",
 			"time": "All day",
 			"availability": {
@@ -284,10 +277,9 @@
 		{
 			"name": "Pop-eyed goldfish",
 			"img": "popeyedgoldfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Pop-eyed_goldfish",
-			"price": "1300",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Pop-eyed_goldfish",
+			"price": "1,300",
 			"location": "Pond",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Pond",
 			"shadow": "1",
 			"time": "9 AM - 4 PM",
 			"availability": {
@@ -324,10 +316,9 @@
 		{
 			"name": "Ranchu goldfish",
 			"img": "ranchugoldfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Ranchu_goldfish",
-			"price": "4500",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Ranchu_goldfish",
+			"price": "4,500",
 			"location": "Pond",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Pond",
 			"shadow": "2",
 			"time": "9 AM - 4 PM",
 			"availability": {
@@ -364,10 +355,9 @@
 		{
 			"name": "Killifish",
 			"img": "killifish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Killifish",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Killifish",
 			"price": "300",
 			"location": "Pond",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Pond",
 			"shadow": "1",
 			"time": "All day",
 			"availability": {
@@ -404,10 +394,9 @@
 		{
 			"name": "Crawfish",
 			"img": "crawfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Crawfish",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Crawfish",
 			"price": "200",
 			"location": "Pond",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Pond",
 			"shadow": "2",
 			"time": "All day",
 			"availability": {
@@ -444,10 +433,9 @@
 		{
 			"name": "Soft-shelled turtle",
 			"img": "softshelledturtle.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Soft-shelled_turtle",
-			"price": "3750",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Soft-shelled_turtle",
+			"price": "3,750",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "4",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -484,10 +472,9 @@
 		{
 			"name": "Snapping Turtle",
 			"img": "snappingturtle.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Snapping_Turtle",
-			"price": "5000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Snapping_Turtle",
+			"price": "5,000",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "5",
 			"time": "9 PM - 4 AM",
 			"availability": {
@@ -524,10 +511,9 @@
 		{
 			"name": "Tadpole",
 			"img": "tadpole.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Tadpole",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Tadpole",
 			"price": "100",
 			"location": "Pond",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Pond",
 			"shadow": "1",
 			"time": "All day",
 			"availability": {
@@ -564,10 +550,9 @@
 		{
 			"name": "Frog",
 			"img": "frog.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Frog_(fish)",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Frog_(fish)",
 			"price": "120",
 			"location": "Pond",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Pond",
 			"shadow": "2",
 			"time": "All day",
 			"availability": {
@@ -604,10 +589,9 @@
 		{
 			"name": "Freshwater goby",
 			"img": "freshwatergoby.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Freshwater_goby",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Freshwater_goby",
 			"price": "400",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "2",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -644,10 +628,9 @@
 		{
 			"name": "Loach",
 			"img": "loach.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Loach",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Loach",
 			"price": "400",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "2",
 			"time": "All day",
 			"availability": {
@@ -684,10 +667,9 @@
 		{
 			"name": "Catfish",
 			"img": "catfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Catfish",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Catfish",
 			"price": "800",
 			"location": "Pond",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Pond",
 			"shadow": "4",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -724,10 +706,9 @@
 		{
 			"name": "Giant snakehead",
 			"img": "giantsnakehead.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Giant_snakehead",
-			"price": "5500",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Giant_snakehead",
+			"price": "5,500",
 			"location": "Pond",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Pond",
 			"shadow": "5",
 			"time": "9 AM - 4 PM",
 			"availability": {
@@ -764,10 +745,9 @@
 		{
 			"name": "Bluegill",
 			"img": "bluegill.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Bluegill",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Bluegill",
 			"price": "180",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "2",
 			"time": "9 AM - 4 PM",
 			"availability": {
@@ -804,10 +784,9 @@
 		{
 			"name": "Yellow perch",
 			"img": "yellowperch.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Yellow_perch",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Yellow_perch",
 			"price": "300",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "3",
 			"time": "All day",
 			"availability": {
@@ -844,10 +823,9 @@
 		{
 			"name": "Black bass",
 			"img": "blackbass.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Black_bass",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Black_bass",
 			"price": "400",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "4",
 			"time": "All day",
 			"availability": {
@@ -884,10 +862,9 @@
 		{
 			"name": "Tilapia",
 			"img": "tilapia.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Tilapia",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Tilapia",
 			"price": "800",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "3",
 			"time": "All day",
 			"availability": {
@@ -924,10 +901,9 @@
 		{
 			"name": "Pike",
 			"img": "pike.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Pike",
-			"price": "1800",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Pike",
+			"price": "1,800",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "5",
 			"time": "All day",
 			"availability": {
@@ -964,10 +940,9 @@
 		{
 			"name": "Pond smelt",
 			"img": "pondsmelt.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Pond_smelt",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Pond_smelt",
 			"price": "500",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "2",
 			"time": "All day",
 			"availability": {
@@ -1004,10 +979,9 @@
 		{
 			"name": "Sweetfish",
 			"img": "sweetfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Sweetfish",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Sweetfish",
 			"price": "900",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "3",
 			"time": "All day",
 			"availability": {
@@ -1044,10 +1018,9 @@
 		{
 			"name": "Cherry salmon",
 			"img": "cherrysalmon.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Cherry_salmon",
-			"price": "1000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Cherry_salmon",
+			"price": "1,000",
 			"location": "River (Clifftop)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "3",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -1084,10 +1057,9 @@
 		{
 			"name": "Char",
 			"img": "char.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Char",
-			"price": "3800",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Char",
+			"price": "3,800",
 			"location": "River (Clifftop)  Pond",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "3",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -1124,10 +1096,9 @@
 		{
 			"name": "Golden trout",
 			"img": "goldentrout.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Golden_trout",
-			"price": "15000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Golden_trout",
+			"price": "15,000",
 			"location": "River (Clifftop)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "3",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -1164,10 +1135,9 @@
 		{
 			"name": "Stringfish",
 			"img": "stringfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Stringfish",
-			"price": "15000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Stringfish",
+			"price": "15,000",
 			"location": "River (Clifftop)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "5",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -1204,10 +1174,9 @@
 		{
 			"name": "Salmon",
 			"img": "salmon.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Salmon",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Salmon",
 			"price": "700",
 			"location": "River (Mouth)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "4",
 			"time": "All day",
 			"availability": {
@@ -1244,10 +1213,9 @@
 		{
 			"name": "King salmon",
 			"img": "kingsalmon.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/King_salmon",
-			"price": "1800",
+			"wiki": "https://animalcrossing.fandom.com/wiki/King_salmon",
+			"price": "1,800",
 			"location": "River (Mouth)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "6",
 			"time": "All day",
 			"availability": {
@@ -1284,10 +1252,9 @@
 		{
 			"name": "Mitten crab",
 			"img": "mittencrab.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Mitten_crab",
-			"price": "2000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Mitten_crab",
+			"price": "2,000",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "2",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -1324,10 +1291,9 @@
 		{
 			"name": "Guppy",
 			"img": "guppy.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Guppy",
-			"price": "1300",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Guppy",
+			"price": "1,300",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "1",
 			"time": "9 AM - 4 PM",
 			"availability": {
@@ -1364,10 +1330,9 @@
 		{
 			"name": "Nibble fish",
 			"img": "nibblefish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Nibble_fish",
-			"price": "1500",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Nibble_fish",
+			"price": "1,500",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "1",
 			"time": "9 AM - 4 PM",
 			"availability": {
@@ -1404,10 +1369,9 @@
 		{
 			"name": "Angelfish",
 			"img": "angelfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Angelfish",
-			"price": "3000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Angelfish",
+			"price": "3,000",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "2",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -1444,10 +1408,9 @@
 		{
 			"name": "Betta",
 			"img": "betta.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Betta",
-			"price": "2500",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Betta",
+			"price": "2,500",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "2",
 			"time": "9 AM - 4 PM",
 			"availability": {
@@ -1484,10 +1447,9 @@
 		{
 			"name": "Neon tetra",
 			"img": "neontetra.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Neon_tetra",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Neon_tetra",
 			"price": "500",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "1",
 			"time": "9 AM - 4 PM",
 			"availability": {
@@ -1524,10 +1486,9 @@
 		{
 			"name": "Rainbowfish",
 			"img": "rainbowfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Rainbowfish",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Rainbowfish",
 			"price": "800",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "1",
 			"time": "9 AM - 4 PM",
 			"availability": {
@@ -1564,10 +1525,9 @@
 		{
 			"name": "Piranha",
 			"img": "piranha.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Piranha",
-			"price": "2500",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Piranha",
+			"price": "2,500",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "2",
 			"time": "9 AM - 4 PM & 9 PM - 4 AM",
 			"availability": {
@@ -1604,10 +1564,9 @@
 		{
 			"name": "Arowana",
 			"img": "arowana.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Arowana",
-			"price": "10000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Arowana",
+			"price": "10,000",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "4",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -1644,10 +1603,9 @@
 		{
 			"name": "Dorado",
 			"img": "dorado.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Dorado",
-			"price": "15000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Dorado",
+			"price": "15,000",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "5",
 			"time": "4 AM - 9 PM",
 			"availability": {
@@ -1684,10 +1642,9 @@
 		{
 			"name": "Gar",
 			"img": "gar.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Gar",
-			"price": "6000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Gar",
+			"price": "6,000",
 			"location": "Pond",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Pond",
 			"shadow": "6",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -1724,10 +1681,9 @@
 		{
 			"name": "Arapaima",
 			"img": "arapaima.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Arapaima",
-			"price": "10000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Arapaima",
+			"price": "10,000",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "6",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -1764,10 +1720,9 @@
 		{
 			"name": "Saddled bichir",
 			"img": "saddledbichir.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Saddled_bichir",
-			"price": "4000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Saddled_bichir",
+			"price": "4,000",
 			"location": "River",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "4",
 			"time": "9 PM - 4 AM",
 			"availability": {
@@ -1804,10 +1759,9 @@
 		{
 			"name": "Sturgeon",
 			"img": "sturgeon.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Sturgeon",
-			"price": "10000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Sturgeon",
+			"price": "10,000",
 			"location": "River (Mouth)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"shadow": "6",
 			"time": "All day",
 			"availability": {
@@ -1844,10 +1798,9 @@
 		{
 			"name": "Sea butterfly",
 			"img": "seabutterfly.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Sea_butterfly",
-			"price": "1000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Sea_butterfly",
+			"price": "1,000",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "1",
 			"time": "All day",
 			"availability": {
@@ -1884,10 +1837,9 @@
 		{
 			"name": "Sea horse",
 			"img": "seahorse.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Sea_horse",
-			"price": "1100",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Sea_horse",
+			"price": "1,100",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "1",
 			"time": "All day",
 			"availability": {
@@ -1924,10 +1876,9 @@
 		{
 			"name": "Clown fish",
 			"img": "clownfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Clownfish",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Clownfish",
 			"price": "650",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "1",
 			"time": "All day",
 			"availability": {
@@ -1964,10 +1915,9 @@
 		{
 			"name": "Surgeonfish",
 			"img": "surgeonfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Surgeonfish",
-			"price": "1000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Surgeonfish",
+			"price": "1,000",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "2",
 			"time": "All day",
 			"availability": {
@@ -2004,10 +1954,9 @@
 		{
 			"name": "Butterfly fish",
 			"img": "butterflyfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Butterfly_fish",
-			"price": "1000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Butterfly_fish",
+			"price": "1,000",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "2",
 			"time": "All day",
 			"availability": {
@@ -2044,10 +1993,9 @@
 		{
 			"name": "Napoleonfish",
 			"img": "napoleonfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Napoleonfish",
-			"price": "10000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Napoleonfish",
+			"price": "10,000",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "6",
 			"time": "4 AM - 9 PM",
 			"availability": {
@@ -2084,10 +2032,9 @@
 		{
 			"name": "Zebra turkeyfish",
 			"img": "zebraturkeyfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Zebra_turkeyfish",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Zebra_turkeyfish",
 			"price": "500",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "3",
 			"time": "All day",
 			"availability": {
@@ -2124,10 +2071,9 @@
 		{
 			"name": "Blowfish",
 			"img": "blowfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Blowfish",
-			"price": "5000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Blowfish",
+			"price": "5,000",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "3",
 			"time": "9 PM - 4 AM",
 			"availability": {
@@ -2164,10 +2110,9 @@
 		{
 			"name": "Puffer fish",
 			"img": "pufferfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Puffer_fish",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Puffer_fish",
 			"price": "250",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "3",
 			"time": "All day",
 			"availability": {
@@ -2204,10 +2149,9 @@
 		{
 			"name": "Anchovy",
 			"img": "anchovy.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Anchovy_(fish)",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Anchovy_(fish)",
 			"price": "200",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "2",
 			"time": "4 AM - 9 PM",
 			"availability": {
@@ -2244,10 +2188,9 @@
 		{
 			"name": "Horse mackerel",
 			"img": "horsemackerel.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Horse_mackerel",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Horse_mackerel",
 			"price": "150",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "2",
 			"time": "All day",
 			"availability": {
@@ -2284,10 +2227,9 @@
 		{
 			"name": "Barred knifejaw",
 			"img": "barredknifejaw.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Barred_knifejaw",
-			"price": "5000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Barred_knifejaw",
+			"price": "5,000",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "3",
 			"time": "All day",
 			"availability": {
@@ -2324,10 +2266,9 @@
 		{
 			"name": "Sea bass",
 			"img": "seabass.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Sea_bass",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Sea_bass",
 			"price": "400",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "5",
 			"time": "All day",
 			"availability": {
@@ -2364,10 +2305,9 @@
 		{
 			"name": "Red snapper",
 			"img": "redsnapper.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Red_snapper",
-			"price": "3000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Red_snapper",
+			"price": "3,000",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "4",
 			"time": "All day",
 			"availability": {
@@ -2404,10 +2344,9 @@
 		{
 			"name": "Dab",
 			"img": "dab.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Dab",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Dab",
 			"price": "300",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "3",
 			"time": "All day",
 			"availability": {
@@ -2444,10 +2383,9 @@
 		{
 			"name": "Olive flounder",
 			"img": "oliveflounder.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Olive_flounder",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Olive_flounder",
 			"price": "800",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "5",
 			"time": "All day",
 			"availability": {
@@ -2484,10 +2422,9 @@
 		{
 			"name": "Squid",
 			"img": "squid.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Squid",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Squid",
 			"price": "500",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "3",
 			"time": "All day",
 			"availability": {
@@ -2524,10 +2461,9 @@
 		{
 			"name": "Moray eel",
 			"img": "morayeel.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Moray_eel",
-			"price": "2000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Moray_eel",
+			"price": "2,000",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "Narrow",
 			"time": "All day",
 			"availability": {
@@ -2564,10 +2500,9 @@
 		{
 			"name": "Ribbon eel",
 			"img": "ribboneel.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Ribbon_eel",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Ribbon_eel",
 			"price": "600",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "Narrow",
 			"time": "All day",
 			"availability": {
@@ -2604,10 +2539,9 @@
 		{
 			"name": "Tuna",
 			"img": "tuna.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Tuna",
-			"price": "7000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Tuna",
+			"price": "7,000",
 			"location": "Pier",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Pier",
 			"shadow": "6",
 			"time": "All day",
 			"availability": {
@@ -2644,10 +2578,9 @@
 		{
 			"name": "Blue marlin",
 			"img": "bluemarlin.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Blue_marlin",
-			"price": "10000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Blue_marlin",
+			"price": "10,000",
 			"location": "Pier",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Pier",
 			"shadow": "6",
 			"time": "All day",
 			"availability": {
@@ -2684,10 +2617,9 @@
 		{
 			"name": "Giant trevally",
 			"img": "gianttrevally.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Giant_trevally",
-			"price": "4500",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Giant_trevally",
+			"price": "4,500",
 			"location": "Pier",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Pier",
 			"shadow": "5",
 			"time": "All day",
 			"availability": {
@@ -2724,10 +2656,9 @@
 		{
 			"name": "Mahi-mahi",
 			"img": "mahimahi.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Mahi-mahi",
-			"price": "6000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Mahi-mahi",
+			"price": "6,000",
 			"location": "Pier",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Pier",
 			"shadow": "5",
 			"time": "All day",
 			"availability": {
@@ -2764,10 +2695,9 @@
 		{
 			"name": "Ocean sunfish",
 			"img": "oceansunfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Ocean_sunfish",
-			"price": "4000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Ocean_sunfish",
+			"price": "4,000",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "6 (Fin)",
 			"time": "4 AM - 9 PM",
 			"availability": {
@@ -2804,10 +2734,9 @@
 		{
 			"name": "Ray",
 			"img": "ray.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Ray",
-			"price": "3000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Ray",
+			"price": "3,000",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "5",
 			"time": "4 AM - 9 PM",
 			"availability": {
@@ -2844,10 +2773,9 @@
 		{
 			"name": "Saw shark",
 			"img": "sawshark.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Saw_shark",
-			"price": "12000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Saw_shark",
+			"price": "12,000",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "6 (Fin)",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -2884,10 +2812,9 @@
 		{
 			"name": "Hammerhead shark",
 			"img": "hammerheadshark.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Hammerhead_shark",
-			"price": "8000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Hammerhead_shark",
+			"price": "8,000",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "6 (Fin)",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -2924,10 +2851,9 @@
 		{
 			"name": "Great white shark",
 			"img": "greatwhiteshark.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Great_white_shark",
-			"price": "15000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Great_white_shark",
+			"price": "15,000",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "6 (Fin)",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -2964,10 +2890,9 @@
 		{
 			"name": "Whale shark",
 			"img": "whaleshark.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Whale_shark",
-			"price": "13000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Whale_shark",
+			"price": "13,000",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "6 (Fin)",
 			"time": "All day",
 			"availability": {
@@ -3004,10 +2929,9 @@
 		{
 			"name": "Suckerfish",
 			"img": "suckerfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Suckerfish",
-			"price": "1500",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Suckerfish",
+			"price": "1,500",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "4 (Fin)",
 			"time": "All day",
 			"availability": {
@@ -3044,10 +2968,9 @@
 		{
 			"name": "Football fish",
 			"img": "footballfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Football_fish",
-			"price": "2500",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Football_fish",
+			"price": "2,500",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "4",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -3084,10 +3007,9 @@
 		{
 			"name": "Oarfish",
 			"img": "oarfish.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Oarfish",
-			"price": "9000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Oarfish",
+			"price": "9,000",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "6",
 			"time": "All day",
 			"availability": {
@@ -3124,10 +3046,9 @@
 		{
 			"name": "Barreleye",
 			"img": "barreleye.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Barreleye",
-			"price": "15000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Barreleye",
+			"price": "15,000",
 			"location": "Sea",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "2",
 			"time": "9 PM - 4 AM",
 			"availability": {
@@ -3164,10 +3085,9 @@
 		{
 			"name": "Coelacanth",
 			"img": "coelacanth.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Coelacanth",
-			"price": "15000",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Coelacanth",
+			"price": "15,000",
 			"location": "Sea (Raining)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Sea",
 			"shadow": "6",
 			"time": "All day",
 			"availability": {
@@ -3206,10 +3126,9 @@
 		{
 			"name": "Common butterfly",
 			"img": "commonbutterfly.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Common_butterfly",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Common_butterfly",
 			"price": "160",
 			"location": "Flying",
-			"location_url": null,
 			"time": "4 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3245,10 +3164,9 @@
 		{
 			"name": "Yellow butterfly",
 			"img": "yellowbutterfly.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Yellow_butterfly",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Yellow_butterfly",
 			"price": "160",
 			"location": "Flying",
-			"location_url": null,
 			"time": "4 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3284,10 +3202,9 @@
 		{
 			"name": "Tiger butterfly",
 			"img": "tigerbutterfly.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Tiger_butterfly",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Tiger_butterfly",
 			"price": "240",
 			"location": "Flying",
-			"location_url": null,
 			"time": "4 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3323,10 +3240,9 @@
 		{
 			"name": "Peacock butterfly",
 			"img": "peacockbutterfly.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Peacock_butterfly",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Peacock_butterfly",
 			"price": "2500",
 			"location": "Flying by Hybrid Flowers",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Flower",
 			"time": "4 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3362,10 +3278,9 @@
 		{
 			"name": "Common bluebottle",
 			"img": "commonbluebottle.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Common_bluebottle",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Common_bluebottle",
 			"price": "300",
 			"location": "Flying",
-			"location_url": null,
 			"time": "4 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3401,10 +3316,9 @@
 		{
 			"name": "Paper kite butterfly",
 			"img": "paperkitebutterfly.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Paper_kite_butterfly",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Paper_kite_butterfly",
 			"price": "1000",
 			"location": "Flying",
-			"location_url": null,
 			"time": "8 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3440,10 +3354,9 @@
 		{
 			"name": "Great purple emperor",
 			"img": "greatpurpleemperor.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Great_purple_emperor",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Great_purple_emperor",
 			"price": "3000",
 			"location": "Flying",
-			"location_url": null,
 			"time": "4 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3479,10 +3392,9 @@
 		{
 			"name": "Monarch butterfly",
 			"img": "monarchbutterfly.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Monarch_butterfly",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Monarch_butterfly",
 			"price": "140",
 			"location": "Flying",
-			"location_url": null,
 			"time": "4 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -3518,10 +3430,9 @@
 		{
 			"name": "Emperor butterfly",
 			"img": "emperorbutterfly.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Emperor_butterfly",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Emperor_butterfly",
 			"price": "4000",
 			"location": "Flying",
-			"location_url": null,
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -3557,10 +3468,9 @@
 		{
 			"name": "Agrias butterfly",
 			"img": "agriasbutterfly.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Agrias_butterfly",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Agrias_butterfly",
 			"price": "3000",
 			"location": "Flying",
-			"location_url": null,
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -3596,10 +3506,9 @@
 		{
 			"name": "Rajah Brooke's birdwing",
 			"img": "rajahbrookesbirdwing.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Rajah_Brooke%27s_birdwing",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Rajah_Brooke%27s_birdwing",
 			"price": "2500",
 			"location": "Flying",
-			"location_url": null,
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -3635,10 +3544,9 @@
 		{
 			"name": "Queen Alexandra's birdwing",
 			"img": "queenalexandrasbirdwing.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Queen_Alexandra%27s_birdwing",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Queen_Alexandra%27s_birdwing",
 			"price": "4000",
 			"location": "Flying",
-			"location_url": null,
 			"time": "8 AM - 4 PM",
 			"availability": {
 				"north": [
@@ -3674,10 +3582,9 @@
 		{
 			"name": "Moth",
 			"img": "moth.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Moth",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Moth",
 			"price": "130",
 			"location": "Flying by Light",
-			"location_url": null,
 			"time": "7 PM - 4 AM",
 			"availability": {
 				"north": [
@@ -3713,10 +3620,9 @@
 		{
 			"name": "Atlas moth",
 			"img": "atlasmoth.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Atlas_moth",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Atlas_moth",
 			"price": "3000",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "7 PM - 4 AM",
 			"availability": {
 				"north": [
@@ -3752,10 +3658,9 @@
 		{
 			"name": "Madagascan sunset moth",
 			"img": "madagascansunsetmoth.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Madagascan_sunset_moth",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Madagascan_sunset_moth",
 			"price": "2500",
 			"location": "Flying",
-			"location_url": null,
 			"time": "8 AM - 4 PM",
 			"availability": {
 				"north": [
@@ -3791,10 +3696,9 @@
 		{
 			"name": "Long locust",
 			"img": "longlocust.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Long_locust",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Long_locust",
 			"price": "200",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
 			"time": "8 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3830,10 +3734,9 @@
 		{
 			"name": "Migratory locust",
 			"img": "migratorylocust.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Migratory_locust",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Migratory_locust",
 			"price": "600",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
 			"time": "8 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3869,10 +3772,9 @@
 		{
 			"name": "Rice grasshopper",
 			"img": "ricegrasshopper.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Rice_grasshopper",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Rice_grasshopper",
 			"price": "160",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
 			"time": "8 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3908,10 +3810,9 @@
 		{
 			"name": "Grasshopper",
 			"img": "grasshopper.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Grasshopper",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Grasshopper",
 			"price": "160",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -3947,10 +3848,9 @@
 		{
 			"name": "Cricket",
 			"img": "cricket.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Cricket",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Cricket",
 			"price": "130",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -3986,10 +3886,9 @@
 		{
 			"name": "Bell cricket",
 			"img": "bellcricket.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Bell_cricket",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Bell_cricket",
 			"price": "430",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -4025,10 +3924,9 @@
 		{
 			"name": "Mantis",
 			"img": "mantis.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Mantis",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Mantis",
 			"price": "430",
 			"location": "On Flowers",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Flowers",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4064,10 +3962,9 @@
 		{
 			"name": "Orchid mantis",
 			"img": "orchidmantis.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Orchid_mantis",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Orchid_mantis",
 			"price": "2400",
 			"location": "On Flowers (White)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Flowers",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4103,10 +4000,9 @@
 		{
 			"name": "Honeybee",
 			"img": "honeybee.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Honeybee",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Honeybee",
 			"price": "200",
 			"location": "Flying",
-			"location_url": null,
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4142,10 +4038,9 @@
 		{
 			"name": "Wasp",
 			"img": "wasp.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Wasp",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Wasp",
 			"price": "2500",
 			"location": "Shaking Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -4181,10 +4076,9 @@
 		{
 			"name": "Brown cicada",
 			"img": "browncicada.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Brown_cicada",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Brown_cicada",
 			"price": "250",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4220,10 +4114,9 @@
 		{
 			"name": "Robust cicada",
 			"img": "robustcicada.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Robust_cicada",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Robust_cicada",
 			"price": "300",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4259,10 +4152,9 @@
 		{
 			"name": "Giant cicada",
 			"img": "giantcicada.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Giant_cicada",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Giant_cicada",
 			"price": "500",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4298,10 +4190,9 @@
 		{
 			"name": "Walker cicada",
 			"img": "walkercicada.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Walker_cicada",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Walker_cicada",
 			"price": "400",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4337,10 +4228,9 @@
 		{
 			"name": "Evening cicada",
 			"img": "eveningcicada.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Evening_cicada",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Evening_cicada",
 			"price": "550",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "4 AM - 8 AM & 4 PM - 7 PM",
 			"availability": {
 				"north": [
@@ -4376,10 +4266,9 @@
 		{
 			"name": "Cicada shell",
 			"img": "cicadashell.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Cicada_shell",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Cicada_shell",
 			"price": "10",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -4415,10 +4304,9 @@
 		{
 			"name": "Red dragonfly",
 			"img": "reddragonfly.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Red_dragonfly",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Red_dragonfly",
 			"price": "180",
 			"location": "Flying",
-			"location_url": null,
 			"time": "8 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -4454,10 +4342,9 @@
 		{
 			"name": "Darner dragonfly",
 			"img": "darnerdragonfly.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Darner_dragonfly",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Darner_dragonfly",
 			"price": "230",
 			"location": "Flying",
-			"location_url": null,
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4493,10 +4380,9 @@
 		{
 			"name": "Banded dragonfly",
 			"img": "bandeddragonfly.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Banded_dragonfly",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Banded_dragonfly",
 			"price": "4500",
 			"location": "Flying",
-			"location_url": null,
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4532,10 +4418,9 @@
 		{
 			"name": "Damselfly",
 			"img": "damselfly.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Damselfly",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Damselfly",
 			"price": "500",
 			"location": "Flying",
-			"location_url": null,
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -4571,10 +4456,9 @@
 		{
 			"name": "Firefly",
 			"img": "firefly.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Firefly",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Firefly",
 			"price": "300",
 			"location": "Flying",
-			"location_url": null,
 			"time": "7 PM - 4 AM",
 			"availability": {
 				"north": [
@@ -4610,10 +4494,9 @@
 		{
 			"name": "Mole cricket",
 			"img": "molecricket.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Mole_cricket",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Mole_cricket",
 			"price": "500",
 			"location": "Underground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -4649,10 +4532,9 @@
 		{
 			"name": "Pondskater",
 			"img": "pondskater.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Pondskater",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Pondskater",
 			"price": "130",
 			"location": "On Ponds and Rivers",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"time": "8 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -4688,10 +4570,9 @@
 		{
 			"name": "Diving beetle",
 			"img": "divingbeetle.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Diving_beetle",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Diving_beetle",
 			"price": "800",
 			"location": "On Ponds and Rivers",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"time": "8 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -4727,10 +4608,9 @@
 		{
 			"name": "Giant water bug",
 			"img": "giantwaterbug.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Giant_water_bug",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Giant_water_bug",
 			"price": "2000",
 			"location": "On Ponds and Rivers",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
 			"time": "7 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -4766,10 +4646,9 @@
 		{
 			"name": "Stinkbug",
 			"img": "stinkbug.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Stinkbug",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Stinkbug",
 			"price": "120",
 			"location": "On Flowers",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Flowers",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -4805,10 +4684,9 @@
 		{
 			"name": "Man-faced stink bug",
 			"img": "manfacedstinkbug.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Man-faced_stink_bug",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Man-faced_stink_bug",
 			"price": "1000",
 			"location": "On Flowers",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Flowers",
 			"time": "7 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -4844,10 +4722,9 @@
 		{
 			"name": "Ladybug",
 			"img": "ladybug.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Ladybug",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Ladybug",
 			"price": "200",
 			"location": "On Flowers",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Flowers",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4883,10 +4760,9 @@
 		{
 			"name": "Tiger beetle",
 			"img": "tigerbeetle.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Tiger_beetle",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Tiger_beetle",
 			"price": "1500",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -4922,10 +4798,9 @@
 		{
 			"name": "Jewel beetle",
 			"img": "jewelbeetle.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Jewel_beetle",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Jewel_beetle",
 			"price": "2400",
 			"location": "On Tree Stumps",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Stump",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -4961,10 +4836,9 @@
 		{
 			"name": "Violin beetle",
 			"img": "violinbeetle.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Violin_beetle",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Violin_beetle",
 			"price": "450",
 			"location": "On Tree Stumps",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Stump",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5000,10 +4874,9 @@
 		{
 			"name": "Citrus long-horned beetle",
 			"img": "citruslonghornedbeetle.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Citrus_long-horned_beetle",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Citrus_long-horned_beetle",
 			"price": "350",
 			"location": "On Tree Stumps",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Stump",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5039,10 +4912,9 @@
 		{
 			"name": "Rosalia batesi beetle",
 			"img": "rosaliabatesibeetle.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Rosalia_batesi_beetle",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Rosalia_batesi_beetle",
 			"price": "3000",
 			"location": "On Tree Stumps",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Stump",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5078,10 +4950,9 @@
 		{
 			"name": "Blue weevil beetle",
 			"img": "blueweevilbeetle.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Blue_weevil_beetle",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Blue_weevil_beetle",
 			"price": "800",
-			"location": "On Trees (Coconut)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location": "On Trees (Coconut?)",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5117,10 +4988,9 @@
 		{
 			"name": "Dung beetle",
 			"img": "dungbeetle.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Dung_beetle",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Dung_beetle",
 			"price": "3000",
 			"location": "On the Ground (rolling snowballs)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5156,10 +5026,9 @@
 		{
 			"name": "Earth-boring dung beetle",
 			"img": "earthboringdungbeetle.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Earth-boring_dung_beetle",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Earth-boring_dung_beetle",
 			"price": "300",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5195,10 +5064,9 @@
 		{
 			"name": "Scarab beetle",
 			"img": "scarabbeetle.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Scarab_beetle",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Scarab_beetle",
 			"price": "10000",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "11 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5234,10 +5102,9 @@
 		{
 			"name": "Drone beetle",
 			"img": "dronebeetle.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Drone_beetle",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Drone_beetle",
 			"price": "200",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5273,10 +5140,9 @@
 		{
 			"name": "Goliath beetle",
 			"img": "goliathbeetle.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Goliath_beetle",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Goliath_beetle",
 			"price": "8000",
 			"location": "On Trees (Coconut)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5312,10 +5178,9 @@
 		{
 			"name": "Saw stag",
 			"img": "sawstag.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Saw_stag",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Saw_stag",
 			"price": "2000",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5351,10 +5216,9 @@
 		{
 			"name": "Miyama stag",
 			"img": "miyamastag.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Miyama_stag",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Miyama_stag",
 			"price": "1000",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5390,10 +5254,9 @@
 		{
 			"name": "Giant stag",
 			"img": "giantstag.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Giant_stag",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Giant_stag",
 			"price": "10000",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "11 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5429,10 +5292,9 @@
 		{
 			"name": "Rainbow stag",
 			"img": "rainbowstag.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Rainbow_stag",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Rainbow_stag",
 			"price": "6000",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "7 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5468,10 +5330,9 @@
 		{
 			"name": "Cyclommatus stag",
 			"img": "cyclommatusstag.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Cyclommatus_stag",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Cyclommatus_stag",
 			"price": "8000",
 			"location": "On Trees (Coconut)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5507,10 +5368,9 @@
 		{
 			"name": "Golden stag",
 			"img": "goldenstag.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Golden_stag",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Golden_stag",
 			"price": "12000",
 			"location": "On Trees (Coconut)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5546,10 +5406,9 @@
 		{
 			"name": "Giraffe stag",
 			"img": "giraffestag.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Giraffe_stag",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Giraffe_stag",
 			"price": "12000",
-			"location": "On Trees (Coconut)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location": "On Trees (Coconut?)",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5585,10 +5444,9 @@
 		{
 			"name": "Horned dynastid",
 			"img": "horneddynastid.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Horned_dynastid",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Horned_dynastid",
 			"price": "1350",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5624,10 +5482,9 @@
 		{
 			"name": "Horned atlas",
 			"img": "hornedatlas.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Horned_atlas",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Horned_atlas",
 			"price": "8000",
 			"location": "On Trees (Coconut)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5663,10 +5520,9 @@
 		{
 			"name": "Horned elephant",
 			"img": "hornedelephant.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Horned_elephant",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Horned_elephant",
 			"price": "8000",
 			"location": "On Trees (Coconut)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5702,10 +5558,9 @@
 		{
 			"name": "Horned hercules",
 			"img": "hornedhercules.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Horned_hercules",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Horned_hercules",
 			"price": "12000",
 			"location": "On Trees (Coconut)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5741,10 +5596,9 @@
 		{
 			"name": "Walking stick",
 			"img": "walkingstick.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Walking_stick",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Walking_stick",
 			"price": "600",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "4 AM - 8 AM & 5 PM - 7 PM",
 			"availability": {
 				"north": [
@@ -5780,10 +5634,9 @@
 		{
 			"name": "Walking leaf",
 			"img": "walkingleaf.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Walking_leaf",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Walking_leaf",
 			"price": "600",
 			"location": "Under Trees Disguised as Leafs",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5819,10 +5672,9 @@
 		{
 			"name": "Bagworm",
 			"img": "bagworm.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Bagworm",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Bagworm",
 			"price": "600",
 			"location": "Shaking Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5858,10 +5710,9 @@
 		{
 			"name": "Ant",
 			"img": "ant.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Ant",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Ant",
 			"price": "80",
 			"location": "On rotten food",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Fruit",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5897,10 +5748,9 @@
 		{
 			"name": "Hermit crab",
 			"img": "hermitcrab.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Hermit_crab",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Hermit_crab",
 			"price": "1000",
 			"location": "Beach disguised as Shells",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Beach",
 			"time": "7 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5936,10 +5786,9 @@
 		{
 			"name": "Wharf roach",
 			"img": "wharfroach.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Wharf_roach",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Wharf_roach",
 			"price": "200",
 			"location": "On Beach Rocks",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Beach",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5975,10 +5824,9 @@
 		{
 			"name": "Fly",
 			"img": "fly.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Fly",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Fly",
 			"price": "60",
 			"location": "On Trash Items",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Trash",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -6014,10 +5862,9 @@
 		{
 			"name": "Mosquito",
 			"img": "mosquito.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Mosquito",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Mosquito",
 			"price": "130",
 			"location": "Flying",
-			"location_url": null,
 			"time": "5 PM - 4 AM",
 			"availability": {
 				"north": [
@@ -6053,10 +5900,9 @@
 		{
 			"name": "Flea",
 			"img": "flea.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Flea",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Flea",
 			"price": "70",
 			"location": "Villager's Heads",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Villager",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -6092,10 +5938,9 @@
 		{
 			"name": "Snail",
 			"img": "snail.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Snail",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Snail",
 			"price": "250",
 			"location": "On Rocks and Bushes (Rain)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Rock",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -6131,10 +5976,9 @@
 		{
 			"name": "Pill bug",
 			"img": "pillbug.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Pill_bug",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Pill_bug",
 			"price": "250",
 			"location": "Hitting Rocks",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Rock",
 			"time": "11 PM - 4 PM",
 			"availability": {
 				"north": [
@@ -6170,10 +6014,9 @@
 		{
 			"name": "Centipede",
 			"img": "centipede.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Centipede",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Centipede",
 			"price": "300",
 			"location": "Hitting Rocks",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Rock",
 			"time": "4 PM - 11 PM",
 			"availability": {
 				"north": [
@@ -6209,10 +6052,9 @@
 		{
 			"name": "Spider",
 			"img": "spider.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Spider",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Spider",
 			"price": "600",
 			"location": "Shaking Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "7 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -6248,10 +6090,9 @@
 		{
 			"name": "Tarantula",
 			"img": "tarantula.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Tarantula",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Tarantula",
 			"price": "8000",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
 			"time": "7 PM - 4 AM",
 			"availability": {
 				"north": [
@@ -6287,10 +6128,9 @@
 		{
 			"name": "Scorpion",
 			"img": "scorpion.png",
-			"wiki_url": "https://animalcrossing.fandom.com/wiki/Scorpion",
+			"wiki": "https://animalcrossing.fandom.com/wiki/Scorpion",
 			"price": "8000",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
 			"time": "7 PM - 4 AM",
 			"availability": {
 				"north": [

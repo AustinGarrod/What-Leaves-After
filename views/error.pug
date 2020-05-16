@@ -1,6 +1,18 @@
 extends layout
 
 block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}
+  div.mdl-card.mdl-shadow--16dp.errordisplay.center
+    if (status == 404)
+      | Looks like we can't find the page you're looking for.
+      br
+      br
+      | Please use the menu in the top left to select a page
+    if !(status == 404)
+      | Looks like we might be having some troubles on our end.
+      br
+      br
+      | Please wait and try again later
+
+  if error
+    div.mdl-card.mdl-shadow--16dp.errordisplay
+      pre #{error.stack}

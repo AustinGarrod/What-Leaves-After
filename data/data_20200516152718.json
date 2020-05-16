@@ -1,5 +1,5 @@
 {
-	"time": "2020-05-16T19:36:59.665Z",
+	"time": "2020-05-16T19:27:18.307Z",
 	"fish": [
 		{
 			"name": "Bitterling",
@@ -4613,7 +4613,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Mole_cricket",
 			"price": "500",
 			"location": "Underground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
+			"location_url": "https://animalcrossing.fandom.com/wiki/Underground",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5080,7 +5080,7 @@
 			"img": "blueweevilbeetle.png",
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Blue_weevil_beetle",
 			"price": "800",
-			"location": "On Trees (Coconut)",
+			"location": "On Trees (Coconut?)",
 			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "All day",
 			"availability": {
@@ -5548,7 +5548,7 @@
 			"img": "giraffestag.png",
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Giraffe_stag",
 			"price": "12000",
-			"location": "On Trees (Coconut)",
+			"location": "On Trees (Coconut?)",
 			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
 			"time": "5 PM - 8 AM",
 			"availability": {

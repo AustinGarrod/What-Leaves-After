@@ -1,5 +1,5 @@
 {
-	"time": "2020-05-16T19:36:59.665Z",
+	"time": "2020-05-16T18:26:16.265Z",
 	"fish": [
 		{
 			"name": "Bitterling",
@@ -1087,7 +1087,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Char",
 			"price": "3800",
 			"location": "River (Clifftop)  Pond",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
+			"location_url": "https://animalcrossing.fandom.com/wiki/RiverPond",
 			"shadow": "3",
 			"time": "4 PM - 9 AM",
 			"availability": {
@@ -3209,7 +3209,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Common_butterfly",
 			"price": "160",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "4 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3248,7 +3248,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Yellow_butterfly",
 			"price": "160",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "4 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3287,7 +3287,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Tiger_butterfly",
 			"price": "240",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "4 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3326,7 +3326,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Peacock_butterfly",
 			"price": "2500",
 			"location": "Flying by Hybrid Flowers",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Flower",
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying by Hybrid Flowers",
 			"time": "4 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3365,7 +3365,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Common_bluebottle",
 			"price": "300",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "4 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3404,7 +3404,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Paper_kite_butterfly",
 			"price": "1000",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "8 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3443,7 +3443,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Great_purple_emperor",
 			"price": "3000",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "4 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3482,7 +3482,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Monarch_butterfly",
 			"price": "140",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "4 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -3521,7 +3521,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Emperor_butterfly",
 			"price": "4000",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -3560,7 +3560,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Agrias_butterfly",
 			"price": "3000",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -3599,7 +3599,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Rajah_Brooke%27s_birdwing",
 			"price": "2500",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -3638,7 +3638,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Queen_Alexandra%27s_birdwing",
 			"price": "4000",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "8 AM - 4 PM",
 			"availability": {
 				"north": [
@@ -3677,7 +3677,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Moth",
 			"price": "130",
 			"location": "Flying by Light",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying by Light",
 			"time": "7 PM - 4 AM",
 			"availability": {
 				"north": [
@@ -3716,7 +3716,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Atlas_moth",
 			"price": "3000",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "7 PM - 4 AM",
 			"availability": {
 				"north": [
@@ -3755,7 +3755,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Madagascan_sunset_moth",
 			"price": "2500",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "8 AM - 4 PM",
 			"availability": {
 				"north": [
@@ -3794,7 +3794,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Long_locust",
 			"price": "200",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On the Ground",
 			"time": "8 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3833,7 +3833,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Migratory_locust",
 			"price": "600",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On the Ground",
 			"time": "8 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3872,7 +3872,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Rice_grasshopper",
 			"price": "160",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On the Ground",
 			"time": "8 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -3911,7 +3911,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Grasshopper",
 			"price": "160",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On the Ground",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -3950,7 +3950,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Cricket",
 			"price": "130",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On the Ground",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -3989,7 +3989,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Bell_cricket",
 			"price": "430",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On the Ground",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -4028,7 +4028,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Mantis",
 			"price": "430",
 			"location": "On Flowers",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Flowers",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Flowers",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4067,7 +4067,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Orchid_mantis",
 			"price": "2400",
 			"location": "On Flowers (White)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Flowers",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Flowers",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4106,7 +4106,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Honeybee",
 			"price": "200",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4145,7 +4145,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Wasp",
 			"price": "2500",
 			"location": "Shaking Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/Shaking Trees",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -4184,7 +4184,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Brown_cicada",
 			"price": "250",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4223,7 +4223,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Robust_cicada",
 			"price": "300",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4262,7 +4262,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Giant_cicada",
 			"price": "500",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4301,7 +4301,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Walker_cicada",
 			"price": "400",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4340,7 +4340,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Evening_cicada",
 			"price": "550",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "4 AM - 8 AM & 4 PM - 7 PM",
 			"availability": {
 				"north": [
@@ -4379,7 +4379,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Cicada_shell",
 			"price": "10",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -4418,7 +4418,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Red_dragonfly",
 			"price": "180",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "8 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -4457,7 +4457,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Darner_dragonfly",
 			"price": "230",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4496,7 +4496,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Banded_dragonfly",
 			"price": "4500",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4535,7 +4535,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Damselfly",
 			"price": "500",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -4574,7 +4574,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Firefly",
 			"price": "300",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "7 PM - 4 AM",
 			"availability": {
 				"north": [
@@ -4613,7 +4613,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Mole_cricket",
 			"price": "500",
 			"location": "Underground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
+			"location_url": "https://animalcrossing.fandom.com/wiki/Underground",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -4652,7 +4652,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Pondskater",
 			"price": "130",
 			"location": "On Ponds and Rivers",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Ponds and Rivers",
 			"time": "8 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -4691,7 +4691,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Diving_beetle",
 			"price": "800",
 			"location": "On Ponds and Rivers",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Ponds and Rivers",
 			"time": "8 AM - 7 PM",
 			"availability": {
 				"north": [
@@ -4730,7 +4730,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Giant_water_bug",
 			"price": "2000",
 			"location": "On Ponds and Rivers",
-			"location_url": "https://animalcrossing.fandom.com/wiki/River",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Ponds and Rivers",
 			"time": "7 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -4769,7 +4769,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Stinkbug",
 			"price": "120",
 			"location": "On Flowers",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Flowers",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Flowers",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -4808,7 +4808,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Man-faced_stink_bug",
 			"price": "1000",
 			"location": "On Flowers",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Flowers",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Flowers",
 			"time": "7 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -4847,7 +4847,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Ladybug",
 			"price": "200",
 			"location": "On Flowers",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Flowers",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Flowers",
 			"time": "8 AM - 5 PM",
 			"availability": {
 				"north": [
@@ -4886,7 +4886,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Tiger_beetle",
 			"price": "1500",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On the Ground",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -4925,7 +4925,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Jewel_beetle",
 			"price": "2400",
 			"location": "On Tree Stumps",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Stump",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Tree Stumps",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -4964,7 +4964,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Violin_beetle",
 			"price": "450",
 			"location": "On Tree Stumps",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Stump",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Tree Stumps",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5003,7 +5003,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Citrus_long-horned_beetle",
 			"price": "350",
 			"location": "On Tree Stumps",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Stump",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Tree Stumps",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5042,7 +5042,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Rosalia_batesi_beetle",
 			"price": "3000",
 			"location": "On Tree Stumps",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Stump",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Tree Stumps",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5080,8 +5080,8 @@
 			"img": "blueweevilbeetle.png",
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Blue_weevil_beetle",
 			"price": "800",
-			"location": "On Trees (Coconut)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location": "On Trees (Coconut?)",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5120,7 +5120,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Dung_beetle",
 			"price": "3000",
 			"location": "On the Ground (rolling snowballs)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On the Ground",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5159,7 +5159,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Earth-boring_dung_beetle",
 			"price": "300",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On the Ground",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5198,7 +5198,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Scarab_beetle",
 			"price": "10000",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "11 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5237,7 +5237,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Drone_beetle",
 			"price": "200",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5276,7 +5276,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Goliath_beetle",
 			"price": "8000",
 			"location": "On Trees (Coconut)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5315,7 +5315,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Saw_stag",
 			"price": "2000",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5354,7 +5354,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Miyama_stag",
 			"price": "1000",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5393,7 +5393,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Giant_stag",
 			"price": "10000",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "11 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5432,7 +5432,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Rainbow_stag",
 			"price": "6000",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "7 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5471,7 +5471,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Cyclommatus_stag",
 			"price": "8000",
 			"location": "On Trees (Coconut)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5510,7 +5510,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Golden_stag",
 			"price": "12000",
 			"location": "On Trees (Coconut)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5548,8 +5548,8 @@
 			"img": "giraffestag.png",
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Giraffe_stag",
 			"price": "12000",
-			"location": "On Trees (Coconut)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location": "On Trees (Coconut?)",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5588,7 +5588,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Horned_dynastid",
 			"price": "1350",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5627,7 +5627,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Horned_atlas",
 			"price": "8000",
 			"location": "On Trees (Coconut)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5666,7 +5666,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Horned_elephant",
 			"price": "8000",
 			"location": "On Trees (Coconut)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5705,7 +5705,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Horned_hercules",
 			"price": "12000",
 			"location": "On Trees (Coconut)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "5 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5744,7 +5744,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Walking_stick",
 			"price": "600",
 			"location": "On Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trees",
 			"time": "4 AM - 8 AM & 5 PM - 7 PM",
 			"availability": {
 				"north": [
@@ -5783,7 +5783,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Walking_leaf",
 			"price": "600",
 			"location": "Under Trees Disguised as Leafs",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/Under Trees Disguised as Leafs",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5822,7 +5822,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Bagworm",
 			"price": "600",
 			"location": "Shaking Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/Shaking Trees",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5861,7 +5861,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Ant",
 			"price": "80",
 			"location": "On rotten food",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Fruit",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On rotten food",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5900,7 +5900,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Hermit_crab",
 			"price": "1000",
 			"location": "Beach disguised as Shells",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Beach",
+			"location_url": "https://animalcrossing.fandom.com/wiki/Beach disguised as Shells",
 			"time": "7 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -5939,7 +5939,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Wharf_roach",
 			"price": "200",
 			"location": "On Beach Rocks",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Beach",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Beach Rocks",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -5978,7 +5978,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Fly",
 			"price": "60",
 			"location": "On Trash Items",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Trash",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Trash Items",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -6017,7 +6017,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Mosquito",
 			"price": "130",
 			"location": "Flying",
-			"location_url": null,
+			"location_url": "https://animalcrossing.fandom.com/wiki/Flying",
 			"time": "5 PM - 4 AM",
 			"availability": {
 				"north": [
@@ -6056,7 +6056,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Flea",
 			"price": "70",
 			"location": "Villager's Heads",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Villager",
+			"location_url": "https://animalcrossing.fandom.com/wiki/Villager's Heads",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -6095,7 +6095,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Snail",
 			"price": "250",
 			"location": "On Rocks and Bushes (Rain)",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Rock",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On Rocks and Bushes",
 			"time": "All day",
 			"availability": {
 				"north": [
@@ -6134,7 +6134,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Pill_bug",
 			"price": "250",
 			"location": "Hitting Rocks",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Rock",
+			"location_url": "https://animalcrossing.fandom.com/wiki/Hitting Rocks",
 			"time": "11 PM - 4 PM",
 			"availability": {
 				"north": [
@@ -6173,7 +6173,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Centipede",
 			"price": "300",
 			"location": "Hitting Rocks",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Rock",
+			"location_url": "https://animalcrossing.fandom.com/wiki/Hitting Rocks",
 			"time": "4 PM - 11 PM",
 			"availability": {
 				"north": [
@@ -6212,7 +6212,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Spider",
 			"price": "600",
 			"location": "Shaking Trees",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Tree",
+			"location_url": "https://animalcrossing.fandom.com/wiki/Shaking Trees",
 			"time": "7 PM - 8 AM",
 			"availability": {
 				"north": [
@@ -6251,7 +6251,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Tarantula",
 			"price": "8000",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On the Ground",
 			"time": "7 PM - 4 AM",
 			"availability": {
 				"north": [
@@ -6290,7 +6290,7 @@
 			"wiki_url": "https://animalcrossing.fandom.com/wiki/Scorpion",
 			"price": "8000",
 			"location": "On the Ground",
-			"location_url": "https://animalcrossing.fandom.com/wiki/Grass",
+			"location_url": "https://animalcrossing.fandom.com/wiki/On the Ground",
 			"time": "7 PM - 4 AM",
 			"availability": {
 				"north": [
