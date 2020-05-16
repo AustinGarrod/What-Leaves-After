@@ -158,6 +158,10 @@ header {
   grid-row-gap: 0px;
 }
 
+#pagetitle {
+  line-height: 52px;
+}
+
 pre {
   margin: 0;
   font-size: 12px;

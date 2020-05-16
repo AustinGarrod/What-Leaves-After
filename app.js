@@ -29,13 +29,13 @@ app.use(function(req, res, next) {
 app.use(function(err, req, res, next) {
   var errorStatus = (err.status || 500)
   var errorMessage = errorStatus + (errorMessage === 500 ? ": Server Error" : ": " + err.message)
-  var titleMessage = errorMessage + "  | whatleavesafter.com";
+  var titleMessage = errorStatus + "  | whatleavesafter.com";
 
   // render the error page
   res.status(err.status || 500);
   res.render('error', {
     message: errorMessage,
-    pagetitle: errorMessage,
+    pagetitle: req.app.get('env') === 'development' ? errorStatus : false,
     title: titleMessage,
     status: errorStatus,
     error: req.app.get('env') === 'development' ? err : false
