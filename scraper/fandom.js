@@ -24,6 +24,7 @@ function getBooleanFromCheckOrDash(string)
   }
 }
 
+
 console.log("Starting data update");
 rp(fishUrl)
 .then(function(html){
@@ -36,9 +37,10 @@ rp(fishUrl)
     var newFish = {
       "name": northRows.eq(i).find("td").eq(0).text().trim(),
       "img": northRows.eq(i).find("td").eq(0).text().trim().toLowerCase().replace(/\s/g, '').replace("-", "").replace("'", "") + ".png",
-      "wiki": "https://animalcrossing.fandom.com" + northRows.eq(i).find("td").eq(0).children().eq(0).attr("href"),
+      "wiki_url": "https://animalcrossing.fandom.com" + northRows.eq(i).find("td").eq(0).children().eq(0).attr("href"),
       "price": northRows.eq(i).find("td").eq(2).text().trim().replace(/,/g, ""),
       "location": northRows.eq(i).find("td").eq(3).text().trim(),
+      "location_url": "https://animalcrossing.fandom.com/wiki/" + northRows.eq(i).find("td").eq(3).text().replace(/ *\([^)]*\) */g, "").trim(),
       "shadow": northRows.eq(i).find("td").eq(4).text().trim(),
       "time": northRows.eq(i).find("td").eq(5).text().trim(),
       "availability": {
@@ -68,9 +70,10 @@ rp(fishUrl)
         var newBug = {
           "name": northRows.eq(i).find("td").eq(0).text().trim(),
           "img": northRows.eq(i).find("td").eq(0).text().trim().toLowerCase().replace(/\s/g, '').replace("-", "").replace("'", "") + ".png",
-          "wiki": "https://animalcrossing.fandom.com" + northRows.eq(i).find("td").eq(0).children().eq(0).attr("href"),
+          "wiki_url": "https://animalcrossing.fandom.com" + northRows.eq(i).find("td").eq(0).children().eq(0).attr("href"),
           "price": northRows.eq(i).find("td").eq(2).text().trim().replace(/,/g, ""),
           "location": northRows.eq(i).find("td").eq(3).text().trim(),
+          "location_url": "https://animalcrossing.fandom.com/wiki/" + northRows.eq(i).find("td").eq(3).text().replace(/ *\([^)]*\) */g, "").trim(),
           "time": northRows.eq(i).find("td").eq(4).text().trim(),
           "availability": {
             "north": [
