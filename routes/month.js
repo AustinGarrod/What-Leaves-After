@@ -81,7 +81,6 @@ router.get('/', function(req, res, next) {
       month: monthText,
       pagetitle: monthText,
       monthNumber: d.getMonth() + 1,
-      description: monthDescriptionPrefix + monthText + monthDescriptionSuffix,
       dataage: moment(creatures.time).tz('America/Toronto').format("YYYY-MM-DD HH:mm:ss z")
     }
   );
@@ -111,7 +110,6 @@ router.get('/all', function(req, res, next) {
         month: monthText,
         pagetitle: monthText,
         monthNumber: d.getMonth() + 1,
-        description: "ALL CREATURE DEBUG",
         dataage: moment(creatures.time).tz('America/Toronto').format("YYYY-MM-DD HH:mm:ss z")
       }
     );
@@ -142,7 +140,6 @@ router.get('/:month', function(req, res, next) {
         month: monthText,
         pagetitle: monthText,
         monthNumber: monthNumber + 1,
-        description: monthDescriptionPrefix + monthText + monthDescriptionSuffix,
         dataage: moment(creatures.time).tz('America/Toronto').format("YYYY-MM-DD HH:mm:ss z")
       }
     );
