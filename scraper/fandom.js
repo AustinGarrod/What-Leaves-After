@@ -24,6 +24,77 @@ function getBooleanFromCheckOrDash(string)
   }
 }
 
+function cleanLocationUrl(dirtyLocation) {
+  var dirtyLocation = dirtyLocation.replace(/ *\([^)]*\) */g, "").trim();
+  var prefix = "https://animalcrossing.fandom.com/wiki/";
+  var cleanLocation = null;
+
+  switch(dirtyLocation) {
+    case "RiverPond":
+      cleanLocation = "River"
+      break;
+    case "Flying":
+      break;
+    case "Flying by Hybrid Flowers":
+      cleanLocation = "Flower"
+      break;
+    case "On Flowers":
+      cleanLocation = "Flowers"
+      break;
+    case "Flying by Light":
+      break;
+    case "On Trees":
+      cleanLocation = "Tree"
+      break;
+    case "On the Ground":
+      cleanLocation = "Grass"
+      break;
+    case "Shaking Trees":
+      cleanLocation = "Tree"
+      break;
+    case "On Ponds and Rivers":
+      cleanLocation = "River"
+      break;
+    case "On Tree Stumps":
+      cleanLocation = "Stump"
+      break;
+    case "Under Trees Disguised as Leafs":
+      cleanLocation = "Tree"
+      break;
+    case "Under Trees Disguised as Leafs":
+      cleanLocation = "Tree"
+      break;
+    case "On rotten food":
+      cleanLocation = "Fruit"
+      break;
+    case "Beach disguised as Shells":
+      cleanLocation = "Beach"
+      break;
+    case "On Beach Rocks":
+      cleanLocation = "Beach"
+      break;
+    case "On Trash Items":
+      cleanLocation = "Trash"
+      break;
+    case "Villager's Heads":
+      cleanLocation = "Villager"
+      break;
+    case "On Rocks and Bushes":
+      cleanLocation = "Rock"
+      break;
+    case "Hitting Rocks":
+      cleanLocation = "Rock"
+      break;
+    default:
+      cleanLocation = dirtyLocation;
+  }
+
+  if (cleanLocation) {
+    cleanLocation = prefix + cleanLocation;
+  }
+
+  return  cleanLocation;
+}
 
 console.log("Starting data update");
 rp(fishUrl)
@@ -40,7 +111,7 @@ rp(fishUrl)
       "wiki_url": "https://animalcrossing.fandom.com" + northRows.eq(i).find("td").eq(0).children().eq(0).attr("href"),
       "price": northRows.eq(i).find("td").eq(2).text().trim().replace(/,/g, ""),
       "location": northRows.eq(i).find("td").eq(3).text().trim(),
-      "location_url": "https://animalcrossing.fandom.com/wiki/" + northRows.eq(i).find("td").eq(3).text().replace(/ *\([^)]*\) */g, "").trim(),
+      "location_url": cleanLocationUrl(northRows.eq(i).find("td").eq(3).text()),
       "shadow": northRows.eq(i).find("td").eq(4).text().trim(),
       "time": northRows.eq(i).find("td").eq(5).text().trim(),
       "availability": {
@@ -73,7 +144,7 @@ rp(fishUrl)
           "wiki_url": "https://animalcrossing.fandom.com" + northRows.eq(i).find("td").eq(0).children().eq(0).attr("href"),
           "price": northRows.eq(i).find("td").eq(2).text().trim().replace(/,/g, ""),
           "location": northRows.eq(i).find("td").eq(3).text().trim(),
-          "location_url": "https://animalcrossing.fandom.com/wiki/" + northRows.eq(i).find("td").eq(3).text().replace(/ *\([^)]*\) */g, "").trim(),
+          "location_url": cleanLocationUrl(northRows.eq(i).find("td").eq(3).text()),
           "time": northRows.eq(i).find("td").eq(4).text().trim(),
           "availability": {
             "north": [
