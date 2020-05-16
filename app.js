@@ -35,7 +35,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error', {
     message: errorMessage,
-    pagetitle: req.app.get('env') === 'development' ? errorStatus : false,
+    pagetitle: req.app.get('env') === 'development' ? errorStatus : errorMessage,
     title: titleMessage,
     status: errorStatus,
     error: req.app.get('env') === 'development' ? err : false
