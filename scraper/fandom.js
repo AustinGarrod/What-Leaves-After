@@ -6,7 +6,7 @@ var moment = require("moment-timezone");
 var fishUrl = 'https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)';
 var bugsUrl = 'https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)';
 var scrapeTime = moment();
-var fileName = './data/data_' + scrapeTime.format("YYYYMMDDHHmmss") + '.json';
+var fileName = './data/data-fandom_' + scrapeTime.format("YYYYMMDDHHmmss") + '.json';
 var latestFileName = './data/data_latest.json';
 
 var data = {
@@ -36,9 +36,10 @@ rp(fishUrl)
     var newFish = {
       "name": northRows.eq(i).find("td").eq(0).text().trim(),
       "img": northRows.eq(i).find("td").eq(0).text().trim().toLowerCase().replace(/\s/g, '').replace("-", "").replace("'", "") + ".png",
-      "wiki": "https://animalcrossing.fandom.com" + northRows.eq(i).find("td").eq(0).children().eq(0).attr("href"),
+      "wiki_url": "https://animalcrossing.fandom.com" + northRows.eq(i).find("td").eq(0).children().eq(0).attr("href"),
       "price": northRows.eq(i).find("td").eq(2).text().trim().replace(/,/g, ""),
       "location": northRows.eq(i).find("td").eq(3).text().trim(),
+      "location_url": "",
       "shadow": northRows.eq(i).find("td").eq(4).text().trim(),
       "time": northRows.eq(i).find("td").eq(5).text().trim(),
       "availability": {

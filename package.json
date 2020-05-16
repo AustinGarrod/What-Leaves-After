@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
-    "scrape-fandom": "node ./scraper/fandom.js"
+    "scrape-fandom": "node ./scraper/fandom.js",
+    "scrape-nookipedia": "node ./scraper/nookipedia.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
