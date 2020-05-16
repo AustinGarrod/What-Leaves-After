@@ -3,11 +3,11 @@ extends layout
 mixin creature(creature)
   div.mdl-card.mdl-shadow--2dp.creature
     div
-      a(href=creature.wiki_url)
+      a(href=creature.wiki_url, target="_blank")
         img.icon(src !="/images/creatures/" + creature.img)
     div.center
       div.name
-        a(href=creature.wiki_url)=creature.name
+        a(href=creature.wiki_url, target="_blank")=creature.name
       div.price
         img.bells(src="/images/bells.png")
         | #{creature.price}
@@ -15,7 +15,7 @@ mixin creature(creature)
       i.material-icons place
       br
       if !(creature.location_url == null)
-        a(href=creature.location_url)=creature.location
+        a(href=creature.location_url, target="_blank")=creature.location
       if (creature.location_url == null)
         | #{creature.location}
     div.center 
