@@ -16,7 +16,7 @@
     "http-errors": "~1.6.3",
     "moment-timezone": "^0.5.28",
     "morgan": "~1.9.1",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "puppeteer": "^3.0.4",
     "request": "^2.88.2",
     "request-promise": "^4.2.5"
